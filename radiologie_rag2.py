@@ -49,9 +49,10 @@ def build_vectorstore(chunks):
 def load_vectorstore():
     st.info("📁 Bestaande vectorstore wordt geladen...")
 
-    # Laden van de vectorstore door gebruik te maken van de Chroma constructor
+    # Chroma loaden vanaf een bestaand pad met de juiste methoden
     if os.path.exists(VECTORSTORE_PATH):
-        vectordb = Chroma.load(VECTORSTORE_PATH, embedding=OllamaEmbeddings(model="nomic-embed-text"))
+        # Gebruik Chroma.from_existing() om een bestaande vectorstore te laden
+        vectordb = Chroma.from_existing(VECTORSTORE_PATH, embedding=OllamaEmbeddings(model="nomic-embed-text"))
         return vectordb
     else:
         st.error("❌ Geen vectorstore gevonden!")
