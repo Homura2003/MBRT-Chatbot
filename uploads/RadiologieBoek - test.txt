@@ -1,0 +1,1192 @@
+deel 1 techniek
+1 Historie
+Frans Greven
+1.1 Inleiding
+Tegen het einde van de negentiende eeuw leek de natuurkunde ‘klaar’. Vrijwel alle
+natuurkundige verschijnselen waren te verklaren met behulp van de klassieke theorieën van Newton en Maxwell. Sommige later beroemd geworden fysici, zoals de
+Nobelprijswinnaars Pieter Zeeman (1865-1943) en Max Planck (1858-1947), kregen
+in die tijd het advies dat ze maar beter een ander vak konden gaan studeren omdat
+er in de natuurkunde geen eer meer te behalen viel. Enkele van de niet op klassieke
+wijze te verklaren onderwerpen waren: het begrip van atomen, röntgenstraling en
+radioactiviteit.
+Röntgenstraling werd bij toeval ontdekt door de Duitse fysicus Wilhelm Conrad
+Röntgen (1845-1923) in 1895 (zie fguur 1.1). Hij deed onderzoek naar de zogenaamde kathodestralen. In het begin van de achttiende eeuw werd ontdekt dat bij
+het aansluiten van een bron van wrijvingsenergie op een glazen vat met verlaagde
+luchtdruk prachtige lichtverschijnselen ontstonden. Deze lichtverschijnselen kregen
+later de naam kathodestralen. Tal van fysici deden onderzoek naar deze processen
+in de gasontladingsbuizen. In 1897 slaagde J.J. Thomson erin aan te tonen dat de
+kathodestralen uit elektronen bestonden. Ten tijde van Röntgens ontdekking was dit
+echter nog onbekend. Op vrijdag 8 november 1895 was Röntgen bezig onderzoek te
+doen naar de werking van kathodestralen. Omdat licht een storende factor was bij
+zijn onderzoek, had hij de gasontladingsbuis bedekt met zwart karton en werkte
+hij in een verduisterde kamer. Tijdens de experimenten zag hij dat enkele kristallen bariumplatinacyanuur op enige afstand van de gasontladingsbuis oplichtten.
+De luminescentie van de kristallen kon niet zijn veroorzaakt door de kathodestralen
+zelf, aangezien ze de afgedekte buis niet konden verlaten. Dit verder onderzoekend
+kwam hij tot de conclusie dat door de botsing van de kathodestralen met het glas aan
+het eind van de gasontladingsbuis een onbekende straling ontstond. Deze straling
+26 r a d i o l o g i e
+had als eigenschap dat zij door materie heen kon dringen (het karton rond de buis).
+Vanwege de onbekende aard van de straling noemde Röntgen dit X-straling. Deze
+naamgeving leeft nog steeds voort in onder andere de Angelsaksische landen (X-rays)
+en is in Nederland later röntgenstraling genoemd.
+Röntgen publiceerde de ontdekking bijna twee maanden later, op 28 december 1895.
+Hij had het doordringend vermogen van de straling toen al uitgebreid onderzocht en
+tijdens zijn voordracht toonde hij foto’s, gemaakt met behulp van de röntgenstralen van
+allerlei voorwerpen, zoals het skelet van de hand van zijn vrouw (zie fguur 1.2). Het was
+al snel duidelijk dat deze ontdekking grote consequenties zou hebben voor de medische
+wetenschap. De ontwikkelingen volgden elkaar in hoog tempo op. In 1896 werden de
+zogenaamde crookesbuizen waarmee Röntgen zijn ontdekking had gedaan, al gebruikt
+voor het stellen van medische diagnosen en bovendien voor röntgentherapie.
+De crookesbuis was een ionenbuis, dat wil zeggen dat er in de buis een gas
+aanwezig was. Dat gas had een veel lagere druk dan de atmosferische druk. In 1913
+werd de coolidgebuis geïntroduceerd, een vacuümbuis met gloeikathode die, in
+tegenstelling tot de tot dan toe gebruikte buizen, zeer betrouwbaar bleek te zijn met
+betrekking tot het stralingsspectrum. Tegenwoordig wordt in de radiodiagnostiek en
+radiotherapie uitsluitend gebruikgemaakt van deze vacuümbuizen.
+Figuur 1.2 Eerste röntgenfoto gemaakt in 1895.
+De verdikking bij de vierde straal werd veroorzaakt door de trouwring van de vrouw van
+Figuur 1.1 Wilhelm Conrad Röntgen (1845-1923) W.C. Röntgen.
+h i s t o r i e 27
+1.2 Aard van de röntgenstraling
+Opvallend is dat de toepassing van röntgenstralen veel sneller in zijn werk is gegaan
+dan de ontrafeling van de aard van de straling. Velen namen aan dat het hier ging om
+energierijke deeltjes. Röntgen vermoedde snel na zijn ontdekking dat de straling zou
+moeten bestaan uit elektromagnetische golven, zoals zichtbaar licht. Velen na hem
+deelden die vermoedens en er werden pogingen ondernomen om dit te bewijzen.
+Wie had het bij het rechte eind?
+1.2.1 Golfkarakter
+Young en Fresnel hadden in het begin van de negentiende eeuw, door met behulp van
+de dubbele spleetmethode buigings- en interferentiepatronen aan te tonen, bewezen
+dat licht een golfkarakter heeft. Dit werd ook geprobeerd met röntgenstraling met
+verschillende optische roosters, maar al deze proeven mislukten. In 1912 suggereerde
+de Duitse natuurkundige Max von Laue om de buigingsproeven te herhalen met
+een ander soort rooster, namelijk een kristal. De openingen tussen de regelmatig
+gerangschikte ionen fungeren dan als uiterst smalle spleten. De diffractiepatronen
+werden door Von Laue, Friedrich en Knipping inderdaad experimenteel aangetoond.
+Met behulp van een door de Engelse natuurkundigen vader en zoon Bragg afgeleide
+formule kon worden aangetoond dat röntgenstraling in het elektromagnetisch spectrum thuishoort met golfengtes in de orde van grootte van enkele nanometers tot
+een picometer (1 nm = 10¯9 m, 1 pm = 10¯12 m). Conclusie: röntgenstraling heeft een
+golfkarakter.
+1.2.2 Deeltjeskarakter
+Een aantal andere verschijnselen, zoals de wisselwerking tussen röntgenstraling
+en materie, is echter niet met het golfmodel te beschrijven en kan alleen aan
+de hand van het deeltjesmodel worden begrepen. De conclusie van deze waarnemingen moet dan ook zijn dat röntgenstraling ook een deeltjeskarakter heeft.
+Aangezien voor sommige verschijnselen het golfmodel moet worden gebruikt en
+voor andere verschijnselen het deeltjesmodel, wordt gesproken over de golf/deeltjesdualiteit.
+1.3 Elektromagnetische straling
+Een veranderend elektrisch veld, zoals voorkomt bij wisselstroom, wekt een veranderend magnetisch veld op, dat vervolgens weer een veranderend elektrisch veld
+opwekt, enzovoort. Deze twee loodrecht op elkaar staande velden planten zich als
+golven voort (zie fguur 1.3).
+Om een elektromagnetische golf weer te geven wordt vanaf dit moment maar
+een van de beide velden afgebeeld. Deze golven komen in allerlei vormen voor, zoals
+zichtbaar licht, gammastraling, radiogolven en röntgenstraling. De benamingen
+28 r a d i o l o g i e
+wekken de indruk dat er over verschillende verschijnselen wordt gesproken. Alle
+golven in het elektromagnetisch spectrum hebben echter dezelfde basiseigenschappen.
+De belangrijkste eigenschappen van elektromagnetische straling zijn:
+r Elektromagnetische straling heeft geen rustmassa.
+r Elektromagnetische straling heeft geen lading.
+r De snelheid van elektromagnetische straling is gelijk aan de lichtsnelheid.
+r Golfengte en frequentie van elektromagnetische straling staan in een vaste
+verhouding tot elkaar.
+r Elektromagnetische straling heeft een bepaalde fotonenergie.
+1.3.1 Rustmassa van elektromagnetische straling
+Elektromagnetische straling heeft geen rustmassa. Alle materie bezit een bepaalde
+rustmassa (= massa van een niet-bewegend deeltje). Straling die uit deeltjes bestaat,
+bestaat uit materie en heeft dus een rustmassa (alfastraling bestaat uit He2+-deeltjes,
+bètastraling bestaat uit elektronen of positronen). Kosmische straling is een verzamelnaam voor straling vanuit de ruimte die soms uit deeltjes (bijvoorbeeld mesonen,
+pionen) bestaat en soms uit elektromagnetische straling.
+1.3.2 Lading van elektromagnetische straling
+Elektromagnetische straling heeft geen lading. Soms heeft straling die uit deeltjes
+bestaat wel een lading, zoals β¯¯ of β+
+¯straling (lading = -1 resp. +1). Dat is niet altijd
+het geval; neutronenstraling bijvoorbeeld heeft, net als elektromagnetische straling,
+geen lading. Omdat elektromagnetische straling massa noch lading kent, is het doordringend vermogen vele malen groter ten opzichte van straling met dezelfde energie,
+bestaande uit geladen deeltjes.
+B
+B
+B
+E
+E
+E
+Figuur 1.3 Een elektromagnetische golf is opgebouwd uit een combinatie van een veranderend elektrisch
+veld (E) en een veranderend magnetisch veld (B).
+h i s t o r i e 29
+1.3.3 Snelheid van elektromagnetische straling
+De snelheid van elektromagnetische straling is afhankelijk van het medium. Meestal
+is het vacuüm het gegeven medium. De snelheid is constant en wordt weergegeven
+door de letter c. In vacuüm geldt:
+c = 3,0 × 108
+ m/s (= 300.000 km/s)
+De c in deze formule wordt gewoonlijk lichtsnelheid genoemd, maar is in feite de
+voortplantingssnelheid van alle straling van het elektromagnetisch spectrum, van
+radiogolven tot en met de gammacomponenten van kosmische straling. De eerste
+drie eigenschappen zijn voor elke vorm van elektromagnetische straling exact
+hetzelfde. De volgende twee eigenschappen verschillen per soort van straling.
+1.3.4 Golfengte en frequentie van elektromagnetische straling
+De plaats in het elektromagnetisch spectrum (zie fguur 1.4) wordt in feite bepaald
+door de golfengte. De golfengte (zie fguur 1.3) is de afstand tussen twee punten die
+één volledige trilling van elkaar verschillen en wordt weergegeven door λ (de Griekse
+letter lambda). Terwijl de typische golfengte van zichtbaar licht zich uitstrekt van
+λ = 380 nm voor violet tot λ = 750 nm voor rood, is de golfengte voor röntgenstraling kleiner dan enkele nanometers en de golfengte van radiogolven tussen enkele
+decimeters en vele kilometers.
+De frequentie n (de Griekse letter nu) is het aantal trillingen per seconde. Dit
+getal heeft hertz als eenheid (1 Hz = 1 trilling per seconde). Daaruit volgt dat de trillingstijd (T) de reciproke waarde is van de frequentie:
+T = 1/n
+elektromagnetisch spectrum
+102 101
+107
+10−11 10−10 10−9 10−8 10−7 10−6 10−5 10−4 100 101 102 103 104
+106 108 109 1010 1011 1012 1013 1014 1015 1016 1017 1018 1019 1020 1021
+100 10−1 10−2 10−3
+10−1 10−2 10−3
+10−4 10−5 10−6 10−7 10−8 10−9 10−10 10−11 10−12 10−13
+radiogolven microgolven infrarood ultraviolet röntgenstraling
+gammastraling
+freguentie in Hz
+energie in keV
+← langer
+← lager
+← lager
+golflengte in meters
+zichtbaar licht
+rood oranje geel groen blauw indigo violet
+golflengte (nm)
+kleur
+zichtbaar
+licht
+hoger →
+hoger →
+korter →
+700 610 580 530 470 430 400
+Figuur 1.4 Elektromagnetisch spectrum. Let op de grote overlap tussen röntgenstraling en gammastraling. Zichtbaar licht beslaat maar een zeer klein deel van het elektromagnetisch spectrum.
+30 r a d i o l o g i e
+Bijvoorbeeld: de frequentie van wisselstroom is 50 Hz. Dan is T = 1/50 s = 0,02 s.
+De frequentie n is aan de golfengte λ gekoppeld door de volgende relatie:
+n × λ = c
+Deze relatie is van groot belang, aangezien de frequentie kan worden berekend zodra
+de golfengte bekend is of andersom, want c is constant.
+1.3.5 Energie van elektromagnetische straling
+Elektromagnetische straling vertoont een golf/deeltjesdualiteit. Het gedrag kan soms,
+zoals bij het verklaren van verschijnselen als interferentie- en buigingspatronen,
+worden begrepen door een golfmodel te gebruiken. In andere gevallen, zoals wisselwerking met materie, levert het golfmodel geen bevredigend antwoord en moet het
+deeltjes- of fotonmodel worden toegepast. Licht bestaat dan niet uit een hoeveelheid
+energie die elke willekeurige waarde kan aannemen, maar uit discrete hoeveelheden die
+quanta (quantum = hoeveelheid) of fotonen worden genoemd. Einstein veronderstelde
+dat de energie van elk foton gelijk was aan het product van de constante van Planck
+(h = 6,63 • 10-34 Js) en de frequentie van de elektromagnetische straling. Deze formule
+wordt de Planck-Einsteinrelatie genoemd en geeft de energie van een foton in joules.
+E = h × n of E = h × 1/λ
+Uitgaande van de frequentie of golfengte is de bijbehorende energie dus zonder
+verdere gegevens te berekenen. Een foton van groen licht met een golfengte van
+500 nm heeft een frequentie van 6,0 × 1014 Hz (ν = 3 × 108
+/500 × 10¯9
+ Hz) en een
+energie van 3,98 × 10¯19 J (E = 6,63 × 10¯34 × 6,0 × 1014 J). Binnen de radiologie wordt
+doorgaans niet met de joule als energie-eenheid gewerkt, maar gebruikt men de
+elektronvolt (eV; zo ook keV of MeV) en is het zaak altijd rekening te houden met
+een omrekeningsfactor (1 eV = 1,6 × 10¯19 J en 1 J = 6,25 × 1018 eV). Behalve met
+de bovengenoemde rekenmethode kan de golfengte van de fotonenergie worden
+berekend met de formule van Duane en Hunt. De hoogste fotonenergie in het
+uitgezonden stralenmengsel heeft de kortste golfengte en is te berekenen met de
+volgende formule.
+λmin
+max
+= 1,24
+a keV
+nm
+Voorbeeld: De maximale fotonenergie bedraagt 100 keV; dan is de golfengte 1,24/100 =
+0,0124 nm.
+Naast deze basiseigenschappen is voor een aantal punten nadere uitleg vereist. Het
+eerste punt is de wijze waarop verschillende vormen van elektromagnetische straling
+h i s t o r i e 31
+worden gespecifceerd. Terwijl in het geval van zichtbaar licht de golfengte wordt
+genoemd, worden radiogolven meestal aangegeven door de frequentie en röntgenstraling door de energie (bijvoorbeeld rood licht met een golfengte van 700 nm,
+radiogolven van 91,8 MHz en röntgenstraling van 100 keV). Formeel is elk van deze
+aanduidingen juist, maar elke vorm zou ook met dezelfde eenheid kunnen worden
+weergegeven (zie tabel 1.1 en fguur 1.4).
+Het gebruik van deze (inconsistente) aanduidingen is echter zodanig ingeburgerd
+dat het niet te veranderen valt. Een ander punt is dat in veel weergaven van het elektromagnetisch spectrum de indruk wordt gewekt dat de energie van gammastraling
+hoger is dan die van röntgenstraling. Die indruk is echter onjuist, aangezien het
+onderscheid tussen deze beide vormen van straling een onderscheid in ontstaanswijze
+is en niet van energieën. Gammastraling is namelijk elektromagnetische straling
+die bij bepaalde energieovergangen in de atoomkern ontstaat, terwijl röntgenstraling
+juist buiten de kern wordt opgewekt.
+Tabel 1.1 Golfengte, frequentie en energie van drie verschillende typen elektromagnetische straling.
+De gebruikelijke karakteriseringen van de betreffende straling zijn cursief weergegeven.
+type straling golfengte frequentie energie (J) energie (keV)
+radiogolven 3,27 m 91,8 MHz 6,09 × 10¯26 J 3,88 × 10¯10 keV
+rood licht 700 × 10¯9
+ m 4,29 × 1014 Hz 2,84 × 10¯19 J 1,78 × 10¯3
+ keV
+röntgenstraling 1,24 × 10¯11 m 2,41 × 1019 Hz 1,60 × 10¯14 J 100 keV
+2 De röntgenbuis
+Jacques Hensen
+2.1 Inleiding
+In situaties waarin geen materie wordt gevormd of materie verdwijnt, geldt de wet
+van behoud van energie. Dat wil zeggen dat er geen energie verloren gaat of bij komt,
+maar dat de veranderingen zich afspelen in de zin van energieomzettingen. Chemische energie kan worden omgezet in mechanische energie (denk aan een verbrandingsmotor). De kinetische energie van elektronen die materie treffen, kan worden
+omgezet in andere energievormen, zoals remstraling en karakteristieke straling. Het
+overgrote deel van de kinetische energie van elektronen in een röntgenbuis wordt
+echter omgezet in warmte (99-99,5%).
+2.1.1 Opwekken van straling
+Bij de opwekking van röntgenstraling is het goed om uit te gaan van de ruimtelijke
+verhoudingen binnen het atoommodel volgens Bohr. Een atoom bestaat uit een kern
+met daarin alle protonen en neutronen en daaromheen een aantal schillen waarin de
+elektronen zich bevinden.
+Bekijken we de atomen van een wolfraamanode in een röntgenbuis op deze
+manier, dan bevinden zich in de kern 74 protonen en 110 neutronen (zie fguur 2.1).
+De 74 elektronen, noodzakelijk om het atoom elektrisch neutraal te houden, zijn
+verdeeld over de K-L-M-N-O-P-schillen. Het maximale aantal elektronen dat zich in
+een schil kan bevinden, kan worden berekend met de formule 2n2
+. Hierin staat n
+voor het schilnummer. Dat wil echter niet zeggen dat elke schil per se het maximumaantal elektronen zal bevatten. De elektronenconfguratie van wolfraam is bijvoorbeeld 2-8-18-32-12-2.
+De ruimtelijke verdeling van een atoom op schaal is onmogelijk weer te geven op
+papier. De afstand tussen de opeenvolgende schillen wordt van binnen naar buiten
+steeds groter. Ruimtelijk gezien is een atoom daarom nagenoeg leeg. Hier en daar
+34 r a d i o l o g i e
+bevindt zich een kern en daartussendoor bewegen de schilelektronen. Vergelijk het
+met de sterrenhemel: elke ster (= zon) staat voor een kern en de diverse planeten
+vertegenwoordigen de schilelektronen. Vanwege deze vergelijking wordt het atoommodel van Bohr ook wel het planetenmodel genoemd.
+In de röntgenbuis wordt de gloeidraad van de kathode (negatieve elektrode) via een
+elektrische stroom verhit. Hierbij zullen elektronen uit de gloeidraad ontsnappen
+(thermische emissie). Rond de gloeidraad zal een wolk ontstaan van vrije elektronen,
+de ruimtelading. Door het ontsnappen van elektronen ontstaat in de gloeidraad
+een relatief tekort aan elektronen en zal de draad ook weer een aantal elektronen
+aantrekken.
+Onder invloed van de buisspanning zullen de vrije elektronen vanuit de wolk in
+de richting van de anode (positieve elektrode) worden versneld. Hierdoor krijgen ze
+een aanzienlijke kinetische energie. Bij een buisspanning van bijvoorbeeld 80 kV is
+dit 80 keV per elektron (= 1,28 × 10-14 joule).
+Met deze kinetische energie bereiken de gloeidraadelektronen de anode en
+verdwijnen ze in de wolfraamatoomruimte. Zoals aangegeven is deze ruimte
+grotendeels leeg, waardoor de kans op botsingen tussen ‘gloeidraad’elektronen en
+schilelektronen en/of kernmateriaal van het anodemateriaal uiterst klein is. De
+kinetische energie van de elektronen zal grotendeels in warmte worden omgezet
+K
+L M N O P
+74+
+Figuur 2.1 Schema van een wolfraamatoom
+d e r ö n t g e n b u i s 35
+(99% of meer) en slechts een klein deel zal in de tweede energievorm, röntgenstraling, worden getransformeerd.
+Remstraling
+Voor de interactie tussen de ‘gloeidraad’elektronen en het wolfraammateriaal zijn
+botsingen niet per se noodzakelijk. Wanneer het (negatieve) elektron een (positieve)
+wolfraamkern passeert, wordt het elektron aangetrokken door de kern. Nu werken er
+twee krachten op het elektron:
+a de kinetische energie van het elektron, waardoor het rechtdoor wil gaan;
+b de aantrekkingskracht van de kern, waardoor het elektron naar de kern wil
+bewegen.
+Het gevolg van dit krachtenspel is dat de baan van het elektron wordt afgebogen en
+dat het elektron een deel van zijn kinetische energie verliest; het wordt dus gedeeltelijk afgeremd. Het verlies van kinetische energie wordt omgezet in elektromagnetische straling (wet van behoud van energie) en vormt zodoende een foton. Omdat dit
+foton ontstaat ten gevolge van het afremmen van elektronen, wordt het een remstralingsfoton genoemd.
+Hoe dichter het ‘gloeidraad’elektron bij de kern komt, des te sterker wordt het
+afgebogen en afgeremd en zal de fotonenergie van het remstralingsfoton relatief
+hoog zijn. Bij afremming verder weg van een kern zijn de afbuiging en de afremming minder en zal een lager energetisch remstralingsfoton ontstaan ontstaan (zie
+fguur 2.2).
+kern
+eeFiguur 2.2 Remstraling ontstaat doordat elektronen worden afgeremd door de kernen. Dit afremmen
+gebeurt in verschillende mate en hierdoor ontstaat een continu spectrum
+36 r a d i o l o g i e
+Ruimtelijk gezien liggen de kernen in materie relatief ver uit elkaar. Daarom is
+de kans op matig afremmen, ver weg van een kern (lage fotonenergie), veel groter
+dan sterk afremmen dicht bij een kern (hoge fotonenergie). Het remstralingsspectrum dat ter plaatse van de anode ontstaat, bevat dus veel laagenergetische fotonen
+en heel weinig hoogenergetische fotonen. De bovengrens van het remstralingsspectrum wordt bepaald door de hoogte van de buispanning. Bij een buisspanning
+van 80 kV (kilovolt) krijgt het elektron een kinetische energie van 80 keV (kiloelektronvolt) en wanneer deze energie in één enkel remproces wordt afgestaan,
+ontstaat een remstralingsfoton van 80 keV. De ondergrens van de fotonenergie is
+niet exact aan te geven omdat het een statistisch proces betreft en bovendien is het
+sterk afhankelijk van de (eigen) flterwaarde van de röntgenbuis.
+Na een remproces gaat het elektron in de nieuwe richting verder met de restenergie.
+Verderop kunnen dan weer remprocessen ontstaan, tot de kinetische energie van
+het elektron verbruikt is en het elektron stilstaat. De diepte waarin elektronen in
+een materiaal kunnen binnendringen, wordt de dracht van elektronen in materie
+genoemd en kan worden berekend met de volgende vuistregel.
+R E = ⋅ × − 5 10 4
+ρ
+R dracht (cm)
+E kinetische energie van het elektron (keV)
+ρ dichtheid van het afremmend materiaal (g/cm3
+)
+Bij een buisspanning van 80 kV is de dracht van de elektronen in de wolfraamanode
+ongeveer 20 μm.
+Om een röntgenbundel te kunnen gebruiken moet de opgewekte remstraling de
+röntgenbuis verlaten. Op het pad van anode naar ‘buiten’ zullen de fotonen door een
+aantal lagen materie moeten dringen (zie ook fguren 2.7 en 2.24b):
+a het eigen anodemateriaal, afhankelijk van diepte en richting waarin het remstralingsfoton ontstaat;
+b wandmateriaal van de inzetbuis;
+c olie tussen inzetbuis en buisomhulling die zorgt voor elektrische isolatie en voor
+een thermische buffer;
+d buisvenster, bestaande uit een dikke laag perspex in de overigens loden buisomhulling;
+e spiegeltje in het diafragma voor het projecteren van het lichtveld;
+f dun laagje perspex dat het diafragmablok afsluit.
+Al deze materialen samen vormen de eigen of inherente flterwaarde van een röntgenbuis. Het inherente buisflter zorgt voor een afname van de stralingsintensiteit,
+d e r ö n t g e n b u i s 37
+omdat hierin een deel van de remstralingsfotonen wordt verzwakt. Hoogenergetische fotonen worden minder verzwakt dan laagenergetische fotonen.
+Het gevolg van de interactie met het inherente buisflter en de eerder beschreven
+verdeling van fotonenergieën in het remstralingsspectrum zorgen voor de uiteindelijke vorm van het uittredende remspectrum:
+a weinig laagenergetsiche fotonen, omdat deze nagenoeg niet door het inherente
+flter kunnen dringen;
+b relatief veel fotonenergieën uit het middengebied, met een piek op ongeveer een
+derde van het maximum;
+c weinig hoogenergetische fotonen, omdat er weinig worden gevormd.
+Omdat dit remspectrum alle fotonenergieën bevat tussen bijna nul en maximaal,
+vormt het een continu spectrum (zie fguur 2.3). aantal fotonen
+uittredend remspectrum
+opgewekt remspectrum
+fotonenergie (keV)
+0 10 20 30 40 50 60 70 80 90 100
+Figuur 2.3 Verschil tussen opgewekt en uittredend remspectrum
+Karakteristieke straling
+Behalve de zeer vele remprocessen die optreden als snelle elektronen de wolfraamanode binnendringen, zullen er af en toe botsingen plaatsvinden tussen de
+gloeidraadelektronen en de schilelektronen van de wolfraamatomen. Wanneer de
+kinetische energie van de gloeidraadelektronen groter is dan de bindingsenergie van
+de schilelektronen kunnen de laatste uit hun baan worden gestoten, waardoor de
+wolfraamatomen worden geïoniseerd. Hierbij ontstaan open plaatsen in de elektronenschillen, die in de meeste gevallen worden opgevuld door elektronen uit een
+verder weg gelegen schil. Het verschil in bindingsenergie tussen die schillen komt
+dan vrij in de vorm van elektromagnetische straling. Deze fotonen bezitten precies
+het energieverschil dat past bij het verschil in bindingsenergie van de betreffende
+elektronenschillen van wolfraam. De fotonenergie is dus zeer karakteristiek voor het
+38 r a d i o l o g i e
+materiaal waarin ze ontstaan. Om die reden wordt deze straling ook wel karakteristieke straling genoemd (zie fguur 2.4).
+Tabel 2.1 Bindingsenergieën van wolfraam
+schil bindingsenergie (keV)
+K - 69,5
+L - 11,3
+M - 2,8
+N - 0,6
+O en P bijna 0 (mogen eigenlijk als vrije elektronen worden gezien)
+Primair
+gloeidraadelektron
+verstrooid
+gloeidraadelektron
+vrijgemaakt
+schilelektron
+Kβ
+Kα
+74+
+Figuur 2.4 Karakteristieke straling
+Een primair gloeidraadelektron stoot een K-schilelektron uit zijn baan waardoor een open plaats ontstaat. Deze plaats wordt opgevuld door een elektron uit een
+verder weg gelegen schil, waarbij een röntgenfoton ontstaat. De energie van dit foton
+is karakteristiek voor de betreffende schilovergang.
+Voor wolfraam zijn de bindingsenergieën in de diverse schillen weergegeven in
+tabel 2.1.
+Tabel 2.2 Karakteristieke straling vanuit wolfraam
+schilovergang karakteristieke fotonenergie (keV)
+L-K - 11,3 -(- 69,5)=58,2 Kα-straling
+M-K - 2,8 -(- 69,5)=66,7 Kβ
+-straling N-K - 0,6 -(- 69,5)=68,9
+M-L - 2,8 -(- 11,3) =8,5
+N-L - 0,6 -(- 11,3) =10,7 niet van belang binnen de radiologie
+N-M - 0,6 -(- 2,8) =2,2
+}
+}
+d e r ö n t g e n b u i s 39
+fotonenergie (keV)
+Kα
+Kβ
+aantal fotonen 0 10 20 30 40 50 60 70 80 90 100
+Figuur 2.5 Karakteristiek lijnenspectrum van wolfraam
+Figuur 2.6 Remspectrum en karakteristiek spectrum bij een buisspanning van 80 kV
+fotonenergie (keV)
+aantal fotonen 0 10 20 30 40 50 60 70 80 90 100
+Met deze energieniveaus zijn de volgende karakteristieke wolfraamfotonen te
+verklaren (tabel 2.2).
+Het karakteristieke spectrum kent uitsluitend discrete fotonenergieën, passend
+bij het materiaal, en vormt zodoende een lijnenspectrum (zie fguur 2.5).
+Aangezien beide processen (afremmen en botsen) gelijktijdig plaatsvinden in de
+wolfraamanode, zullen beide spectra ook samen uit de buis komen. De laagenergetische
+karakteristieke straling (circa 10 keV) zal nagenoeg geheel door het inherente buisflter
+worden geabsorbeerd. Omdat deze fotonenergie binnen de radiodiagnostiek verder niet
+interessant is, worden meestal uitsluitend de lijnen van de Kα- en Kβ
+-straling weergegeven.
+Het complete uittredende spectrum ziet er dan uit zoals weergegeven in fguur 2.6.
+40 r a d i o l o g i e
+2 1 3 1 4 4
+9 12 7 10 15 11 5 6 8 13
+Figuur 2.7 Schematische weergave van de bouw van een röntgenbuis
+1 anodeschotel 9 buisomhulling
+2 kathode 10 omhullingsvenster
+3 focusseringscup 11 buisflter
+4 stator 12 aansluitbus kathodekabel
+5 rotor 13 expansievat
+6 aansluitbus anodekabel 14 anodesteel
+7 vacuümruimte inzetbuis 15 buisvenster
+8 olie tussen inzetbuis en buisomhulling
+2.1.2 Röntgensysteem
+Het röntgensysteem is een verzameling van systeemdelen die gezamenlijk tot doel
+hebben een röntgenopname te maken. Het systeem is opgebouwd uit drie hoofddelen:
+röntgenbuis, generator en statief. De röntgenbuis (zie fguur 2.7) vormt het hart van de
+installatie. Hier wordt de röntgenstraling opgewekt die wordt gebruikt voor de uiteindelijke beeldvorming. De generator levert aan de röntgenbuis de elektrische energie die
+noodzakelijk is om de röntgenstraling te kunnen opwekken. Het statief ten slotte kan uit
+twee delen bestaan: het buisstatief en het patiëntenstatief (röntgentafel). Het buisstatief
+wordt gebruikt om de röntgenbuis en eventueel de detector (beeldversterker, fosforplaat
+of fat-panel detector) ten opzichte van de patiënt te positioneren, het patiëntenstatief
+dient om de patiënt ten opzichte van de röntgenbundel en de detector te positioneren.
+d e r ö n t g e n b u i s 41
+2.2 Bouw röntgenbuis
+De röntgenbuis vormt het centrale deel van elke röntgeninstallatie. Hier wordt elektrische energie omgezet in stralingsenergie. Het rendement is echter laag: slechts
+1% of minder wordt omgezet in röntgenstraling, 99% of meer wordt omgezet in
+warmte. Van de opgewekte hoeveelheid röntgenstraling wordt vervolgens slechts
+circa 10% nuttig gebruikt.
+De hoge elektrische spanningen, de röntgenstraling, de hoge temperaturen en
+de diverse mechanische belastingen stellen hoge eisen aan de constructie van de
+röntgenbuis en zijn omhulling. De röntgenbuis is in principe een diode met daarin
+een elektronenbron (kathode) en het target (anode). De anode heeft een positieve,
+elektrische potentiaal ten opzichte van de kathode. De (negatief geladen) elektronen
+die in de kathode worden vrijgemaakt, worden door de (positieve) anode aangetrokken. Hierdoor ontstaat een elektronenstroom van kathode naar anode, de buisstroom.
+2.2.1 Kathode
+De elektronenbron of kathode wordt gevormd door een spiraalvormige gloeidraad,
+zoals in een elektrische lamp. Het materiaal van de gloeispiraal is wolfraam, vanwege
+de zeer hoge smelttemperatuur. De spiraal is ingebouwd in de focusseringscup. In
+een dubbelfocusbuis is sprake van een dubbele gloeidraad, een voor de grote en een
+voor de kleine focus. Door het aanleggen van een gloeispanning zal een elektrische
+stroom door de gloeidraad worden gestuurd, die de draad verhit. De elektronen die
+in de atomaire structuur van de gloeidraad voorkomen, zullen zo snel gaan bewegen
+dat ze vrijkomen van hun eigen atoom en de gloeidraad verlaten. Dat is hiervoor
+al aangeduid als thermische emissie. Door het ontsnappen van elektronen ontstaat
+in de gloeidraad een relatief tekort aan elektronen en de draad zal dan ook weer
+een aantal elektronen aantrekken. Zolang de gloeidraad wordt verwarmd, zullen
+elektronen de draad verlaten en weer terugkeren. Op die manier ontstaat een evenwichtssituatie met een min of meer constant aantal elektronen in de wolk, ook wel
+ruimtelading genoemd (zie fguur 2.8).
+Als tussen de kathode en het target of de anode een spanning wordt aangelegd
+(buisspanning) waarbij de anode positief is ten opzichte van de kathode, dan zullen
+de negatief geladen elektronen door de anode worden aangetrokken en zal een elektronenstroom door de buis gaan lopen tussen de kathode en de anode (buisstroom).
+De buis en vooral de focusseringscup zijn zodanig geconstrueerd dat de elektronen
+zich langs veldlijnen gaan bewegen naar een zo klein mogelijk oppervlak op de
+anode. Dat oppervlak is de focus. In de focus zullen de elektronen met een hoge
+kinetische energie het anodemateriaal bereiken en zal röntgenstraling vrijkomen
+(zie fguur 2.9).
+42 r a d i o l o g i e
+Ug
+Ub
+I
+g
+I
+b
+Figuur 2.9 Schematische weergave van een röntgenbuis
+Ug gloeispanning Ub buisspanning
+I
+g gloeistroomsterkte I
+b buisstroomsterkte
+Figuur 2.8 Wolk van vrije elektronen rond de gloeidraad
+Ug gloeispanning
+I
+g gloeistroomsterkte
+Ug
+I
+g
+Bij buizen met een zeer kleine focus (bijvoorbeeld voor mammografe) wordt, ten
+opzichte van de gloeidraad, een kleine negatieve spanning op de focusseringscup
+geplaatst, waardoor de elektronenbundel verder wordt versmald. De vorm en
+grootte van de focus worden dus zowel door de lengte van de gloeidraad (grote en
+kleine focus) als door de vorm en spanning van de focusseringscup bepaald (zie
+fguren 2.10 en 2.11).
+d e r ö n t g e n b u i s 43
+Figuur 2.10 Kathode van een dubbelfocusbuis
+Figuur 2.11 Veldlijnen en vorm van de elektronenbundel in een dubbelfocusbuis
+2.2.2 Anode
+Aangezien het anodemateriaal wordt gebombardeerd met zeer snelle elektronen en
+deze kinetische energie moet worden omgezet in stralingsenergie, worden specifeke
+eisen gesteld aan dit materiaal. Om een zo groot mogelijke hoeveelheid remstraling
+te kunnen opwekken, moet worden gekozen voor targetmateriaal met een zo hoog
+44 r a d i o l o g i e
+mogelijk atoomnummer. Doordat een hoger atoomnummer de kern sterker positief
+maakt, verloopt het remproces van negatief geladen elektronen effciënter. Lood
+zou wat dat betreft ideaal zijn (Z = 82), maar zou direct wegsmelten omdat het een
+lage smelttemperatuur heeft (327 °C). Daarom kiest men veelal voor wolfraam (Z
+= 74 en een smelttemperatuur van 3380 °C). Buizen die met een lage buisstroom
+werken, zullen met een vaste anode van wolfraam zijn uitgevoerd, zoals de röntgenbuis die bij de tandarts wordt gebruikt. Zodra er echter hogere buisstromen door de
+buis gaan, is ook een hoge smelttemperatuur onvoldoende om te voorkomen dat de
+anode smelt. Door de anode uit te voeren in de vorm van een draaiende schijf, wordt
+de warmte over een groter oppervlak verdeeld (zie fguur 2.12).
+Door warmtegeleiding van het anodemateriaal zal de warmte van de focus snel
+naar diepere lagen moeten worden afgevoerd voordat de anode een keer is rondgedraaid en een bepaald punt op de anode opnieuw wordt verhit. Daarom bestaat de
+diepere laag van een anodeschotel uit een materiaal met een hoge warmtecapaciteit,
+zoals molybdeen of grafet. In de anode ontstaan extreme temperatuurverschillen en
+samen met een toerental van 3000 of 9000 toeren per minuut (tpm) zorgt dit voor
+grote mechanische spanningen. Om die reden worden veelal legeringen gebruikt die
+een grotere mechanische sterkte hebben.
+Figuur 2.12 Anodeschotel; weergegeven zijn de focusbaan (B) en de plaats en de grootte van de focus (A)
+A
+B
+2.2.3 Rotor
+Er zijn buizen met een vaste en met een roterende anode. Buizen met een vaste
+anode hebben een betrekkelijk lage belastbaarheid. Bij de roterende anode wordt de
+anodeschijf aangedreven met behulp van een rotor. Deze rotor vormt een deel van een
+soort elektromotor waarvan de stator zich buiten de vacuümomhulling bevindt. De
+roterende anode is bevestigd in een lager. Bij het kogellager wordt gebruikgemaakt
+d e r ö n t g e n b u i s 45
+van kogels die anode en rotor dragen. Bij een vloeistofager (V-groefagering) bevindt
+zich een vloeibare metaallegering in een zeer nauwe spleet tussen een vast en
+een draaibaar deel van het lager. Als gevolg van het roteren zal een aquaplaningeffect ontstaan, waardoor het lager nagenoeg zonder weerstand ‘zweeft’ op de vloeistof. Omdat er bij een vloeistofager sprake is van een groter (metallisch) geleidend
+oppervlak, kan de warmte van de anode sneller worden afgevoerd naar de omhullende behuizing van de buis, waardoor een grotere belastbaarheid van de buis mogelijk is dan bij een kogellager.
+2.2.4 Vacuümomhulling
+De vacuüm- of inzetbuis bestaat uit een glazen of metalen omhulling waarbinnen de
+kathode en anode zijn aangebracht. Binnen in de inzetbuis is hoogvacuüm aangebracht. Dat is niet alleen noodzakelijk om de elektronenstroom ongehinderd in de buis
+te laten lopen, maar het voorkomt tevens dat de gloeispiraal binnen enkele uren geheel
+opbrandt wanneer deze in contact zou komen met zuurstof. Tijdens de fabricage van
+de buis wordt de buis leeggepompt en wordt ‘gettermateriaal’ in de buis aangebracht.
+Dit materiaal is poreus en heeft de eigenschap losse gasmoleculen te adsorberen
+(binding van een gas aan een vaste stof). Eventueel achtergebleven gasmoleculen of
+later vrijkomende moleculen worden door de ‘getter’ vastgehouden.
+2.2.5 Buisomhulling
+De inzetbuis wordt geplaatst in een buisomhulling. De buisomhulling heeft
+diverse functies. Hij dient als mechanische bescherming van de kwetsbare inzetbuis voor invloeden van buitenaf en biedt mechanische bescherming voor de
+omgeving tegen rondvliegende onderdelen ingeval de inzetbuis onverhoopt zou
+imploderen.
+Aan de binnenkant is de buisomhulling bekleed met lood om de opgewekte straling in ongewenste richtingen af te schermen. Straling die toch door het loden deel
+van de buisomhulling dringt, wordt lekstraling genoemd. Door de wetgever zijn eisen
+gesteld aan het maximale equivalente dosistempo dat door de lekstraling mag worden
+veroorzaakt. Zo geldt er voor radiodiagnostiekapparatuur op een afstand van 1 meter
+van de focus een dosistempolimiet van maximaal 1 mSv/h (millisievert/uur), buiten
+de primaire bundel met gesloten diafragma en bij maximale belasting van de röntgenbuis. Slechts op één plaats is een onderbreking gemaakt in het normale omhullingsmateriaal en is het vervangen door een vast diafragma waarvan de opening is
+opgevuld met perspex. Dit wordt het buisvenster genoemd. Hier kan de röntgenstraling de buis verlaten om te worden gebruikt voor een opname.
+De ruimte tussen de inzetbuis en de buisomhulling is verder gevuld met olie, die
+dient voor een extra opslagmogelijkheid van warmte en zorgt voor elektrische isolatie
+van het hoge spanningsverschil tussen de inzetbuis en de buitenwereld. Door het
+opwarmen van de olie bij gebruik van de buis zal deze uitzetten. Om te voorkomen
+dat bij een te hoge oliedruk de inzetbuis wordt beschadigd, is aan een zijde in de
+buisomhulling een expansievat aangebracht (zie fguur 2.7).
+46 r a d i o l o g i e
+2.2.6 Hoogspanningsaansluitingen
+De röntgenbuis is met hoogspanningskabels aangesloten op de generator. Het
+toepassen van een spanning tot 150.000 volt stelt ten aanzien van de elektrische isolatie
+en veiligheid speciale eisen aan buisaansluitingen en kabels. De hoogspanningskabels
+bevatten in de regel drie geleidende kernen. Binnen de anodekabel wordt slechts één
+kern gebruikt voor het aanvoeren van de anodehoogspanning. Bij de kathodekabel zijn
+twee aders nodig, een voor het aanvoeren van de kathodehoogspanning en een voor het
+aanleggen van een klein spanningsverschil met de eerste kern ten behoeve van de gloeispanning. Voor de maximale buisspanning van 150.000 volt zal de anodekabel +75.000
+volt aanleggen en de kathodekabel -75.000 volt. Wanneer daarbij de tweede kern van
+de kathodekabel wordt voorzien van een potentiaal van -74.990 volt, ontstaat een gloeispanning van 10 volt (zie fguur 2.13). Om bij een eventuele doorslag van de kabel te
+voorkomen dat de doorslag buiten de kabel komt, is de gehele kabel omwonden met
+een gevlochten kopermantel die met de aarde is doorverbonden. De hoogspanningskabel werkt behalve als elektrische geleider ook als condensator. Hierdoor wordt een
+eventuele rimpel op de hoogspanning enigszins afgevlakt. Door deze condensatorwerking van de kabel bestaat het gevaar dat de kabel nog enige lading bezit als die van de
+buis of hoogspanningstransformator wordt losgemaakt. Dit kan ernstige verwondingen
+tot gevolg hebben.
+Figuur 2.13 Doorsnede van een hoogspanningskabel
+geleidende kernen met
+kernisolatie
+enigszins geleidend rubber ter afzwakking
+elektromagnetische velden
+hoogspanningsisolatie
+geaarde, koperen afscherming
+tegen ‘kabeldoorslag’
+beschermlaag en externe
+isolatielaag
+2.3 Röntgenbundel
+2.3.1 Focus
+Als een röntgenopname wordt gemaakt, wordt door het indrukken van de voorbereidingsknop de rotorsturing van de buis ingeschakeld. Ook gaat er een grote stroom
+door de gloeidraad lopen, zodat die in korte tijd (< 1 s) op temperatuur wordt gebracht.
+Deze ‘booststroom’ is zelfs iets groter dan de benodigde gloeistroom voor de opname.
+Zodra de gloeidraad in de kathode op temperatuur is en er voldoende elektronen
+d e r ö n t g e n b u i s 47
+Figuur 2.14 Anodehoek in relatie tot optische focus en belastbaarheid
+Φ Φ
+Φ
+Φ
+grote hoek
+kleine hoek grote hoek
+elektronenbundel elektronenbundel
+elektronenbundel elektronenbundel
+grote optische focus kleine optische focus
+lage belastbaarheid
+hoge belastbaarheid
+kleine hoek
+vrijkomen, kan de opnameknop worden doorgedrukt naar de opnamestand en zal
+de hoogspanning tussen kathode en anode worden ingeschakeld. Er zal nu een buisstroom gaan lopen.
+Röntgenstraling ontstaat op het punt waar de elektronenbundel de anode raakt.
+Dat punt heet de werkelijke, belastbare of thermische focus, ook wel lijnfocus
+genoemd vanwege de langwerpige vorm. De röntgenstraling die in dit punt ontstaat,
+zal zich in de buis naar alle kanten verspreiden. Aan de kant van de anode zal de
+anode echter zelf een belangrijk deel van de straling absorberen. Via het buisvenster kan de straling de buis verlaten zodat die voor de opname kan worden gebruikt.
+Vanuit de focus zal er een divergerende stralenbundel ontstaan.
+In 1918 heeft Götze gevonden dat een anode die onder een hoek wordt geplaatst
+een schijnbaar kleinere focus oplevert, waardoor de opnamekwaliteit aanzienlijk verbetert. Dit wordt de optische, geometrische, geprojecteerde of effectieve focus genoemd.
+Het toepassen van een anodehoek heeft echter nog een voordeel. Bij een buis
+met een kleine anodehoek kan de elektronenbundel over een groter oppervlak
+worden verspreid. De buis met de kleine anodehoek kan zwaarder worden belast
+(zie fguur 2.14).
+Tijdens het elektronenbombardement op de anode ontstaan secundaire elektronen. Deze elektronen komen op andere plaatsen op de anode terecht en hebben
+nog voldoende energie om opnieuw secundaire röntgenstraling op te wekken.
+Men noemt dit ook wel extrafocale straling. Extrafocale straling heeft weliswaar
+een lagere energie, maar die is nog voldoende om aan de beeldvorming een verstorende bijdrage te leveren. Door een gedeelte van de vacuümomhulling te voorzien
+van metaal kunnen deze secundaire elektronen worden ‘gevangen’, zodat ze geen
+extrafocale straling veroorzaken op een plaats waar ze de beeldvorming kunnen
+verstoren.
+48 r a d i o l o g i e
+Als over de grootte van de focus wordt gesproken, heeft men het altijd over de
+optische focus. De grootte van de optische focus wordt aangegeven in millimeters.
+Een focus van 1,5 mm wil zeggen dat de focus een grootte heeft van 1,5 x 1,5 mm2
+. In
+werkelijkheid is de focus echter zelden vierkant. De International Electrotechnical
+Commission (IEC) heeft in een internationale norm waarden vastgelegd waaraan een
+focus moet voldoen. In tabel 2.3 zijn de afmetingen volgens de norm IEC 336/1982
+weergegeven.
+nominale focus breedte in mm lengte in mm
+0,1 0,1-0,15 0,1-0,15
+0,15 0,15-0,23 0,15-0,23
+0,2 0,2-0,3 0,2-0,3
+0,3 0,3-0,45 0,45-0,65
+0,4 0,4-0,6 0,6-0,85
+0,5 0,5-0,75 0,7-1,1
+0,6 0,6-0,9 0,9-1,3
+0,7 0,7-1,1 1,0-1,5
+0,8 0,8-1,2 1,1-1,6
+0,9 0,9-1,3 1,3-1,8
+1,0 1,0-1,4 1,4-2,0
+1,1 1,1-1,5 1,6-2,2
+1,2 1,2-1,7 1,7-2,4
+1,3 1,3-1,8 1,9-2,6
+1,4 1,4-1,9 2,0-2,8
+1,5 1,5-2,0 2,1-3,0
+1,6 1,6-2,1 2,3-3,1
+1,7 1,7-2,2 2,4-3,2
+1,8 1,8-2,3 2,6-3,3
+1,9 1,9-2,4 2,7-3,5
+2,0 2,0-2,6 2,9-3,7
+2,2 2,2-2,9 3,1-4,0
+2,4 2,4-3,1 3,4-4,4
+2,6 2,6-3,4 3,7-4,8
+2,8 2,8-3,6 4,0-5,2
+3,0 3,0-3,9 4,3-5,6
+Tabel 2.3 Afmetingen van de focus in mm volgens de norm IEC 336/1982
+d e r ö n t g e n b u i s 49
+F
+C
+B
+A
+a
+b horizontale stralingsrichting verticale stralingsrichting
+ hartlijn van de buis
+anodehoek 20°
+20°
+15°
+10°
+5°
+0°
+5°
+10°
+15°
+20°
+20° 15° 10° 5° 0° 5° 10° 15° 20°
+Figuur 2.15 Focus F zal vanuit verschillende hoeken gezien verschillende optische afmetingen hebben
+Geprojecteerde focus:
+F focus B centraalstraal (CS)
+A dichtst bij de kathode C dichtst bij de anode
+Afhankelijk van de hoek waaronder naar de focus wordt ‘gekeken’ zullen de
+afmetingen van de focus eveneens verschillend zijn (zie fguur 2.15). Dit verschijnsel
+noemt men astigmatisme. Met dit verschijnsel moet rekening worden gehouden
+als men hoge eisen stelt aan de spatiële resolutie van een deel van de opname.
+Immers, door dit verschijnsel zal de geometrische onscherpte aan de zijde van de
+kathode groter zijn dan aan de anodezijde.
+2.3.2 Afmetingen van de bundel
+In de buisomhulling is ter plaatse van het buisvenster door de fabrikant een vast
+diafragma geplaatst. Door de bouw van dit diafragma wordt op geometrische wijze de
+hoeveelheid uittredende extrafocale straling nog verder beperkt. Bovendien begrenst dit
+diafragma de röntgenbundel dusdanig dat de bundelhoek maximaal ongeveer tweemaal
+de anodehoek is (fguur 2.16).
+Bij een gegeven anodehoek bepaalt de gekozen focus-detectorafstand de maximale veldgrootte die belicht kan worden.
+b = 2 × Fd × tan α
+50 r a d i o l o g i e
+Figuur 2.16 Relatie tussen de anodehoek en de maximale bundeldiameter
+D vast diafragma Fd focus-detectorafstand
+a anodehoek b bundeldoorsnede
+b bundelhoek (= 2 × a)
+β
+α
+b
+Fd
+D
+focus
+detector
+2.3.3 Dosis van een röntgenbundel
+Het aantal elektronen dat per seconde oversteekt van kathode naar anode komt
+overeen met een hoeveelheid lading in coulomb (C) die per seconde de oversteek maakt. Het aantal elektronen dat per seconde bij de anode aankomt, wordt
+de buisstroomsterkte of kortweg de buisstroom genoemd. In de praktijk kan de
+buisstroom variëren van enkele milliampères tot een paar honderd milliampères.
+1 1 10 3 mA C
+s = −
+⋅
+d e r ö n t g e n b u i s 51
+En aangezien de lading van 1 elektron 1,6 × 10-19 C bedraagt, geldt:
+1
+1 10
+1 6 10
+6 25 10
+3
+19
+15 mA
+C
+s
+C
+elektron
+elektro =
+⋅
+⋅
+= ⋅
+−
+− ,
+, nen
+s
+Vermenigvuldigt men de buisstroomwaarde met de belichtingstijd, dan is dit
+product (mA × s) een maat voor het aantal elektronen dat bij een bepaalde opname
+de anode heeft bereikt. Omdat dit aantal elektronen op zijn beurt samen een
+bepaalde hoeveelheid lading vertegenwoordigt, wordt de mAs-waarde ook wel buislading genoemd.
+1 1 10 1 1 10 6 25 10 3 3 15 mA s
+C
+s ⋅ ⋅ s C ⋅ ⋅ elektronen − − = = × = ,
+Zowel de hoogte van de buisstroom als de lengte van de belichtingstijd is rechtevenredig met de dosis van de opgewekte straling. Bij een hogere mAs-waarde zal het
+aantal elektronen dat de anode treft evenredig groter zijn. Alle rem- en botsingsprocessen in de anode zullen in gelijke mate toenemen en zodoende zullen er van elke
+fotonenergie evenredig meer fotonen ontstaan (zie fguur 2.17).
+De gloeistroom is bepalend voor het aantal elektronen dat in de kathode vrijkomt
+via thermische emissie en is dus indirect ook bepalend voor de hoogte van de buisstroom (zie fguur 2.18).
+Figuur 2.17 Röntgenspectrum bij 80 kV en diverse mAs-waarden
+fotonenergie (keV)
+20 mAs
+30 mAs
+40 mAs
+aantal fotonen
+0 10 20 30 40 50 60 70 80 90 100
+52 r a d i o l o g i e
+In moderne röntgenbuizen is de hoogte van de buisspanning niet van invloed op
+de hoogte van de buisstroom. Een hogere buisspanning leidt dus niet tot een stijging van het aantal elektronen per seconde dat oversteekt van kathode naar anode,
+maar zorgt wel voor een toename van de kinetische energie van die elektronen. In
+de anode wordt deze kinetische energie van de elektronen via rem- en/of botsingsprocessen omgezet in fotonenergieën. Bij een verhoging van de buispanning van
+50 naar 100 kV stijgt de kinetische energie van de elektronen van 50 naar 100 keV.
+Eén elektron van 50 keV kan via een aantal opeenvolgende remprocessen diverse
+fotonenenergieën opwekken: bijvoorbeeld 5 fotonen van 10 keV of 2 fotonen van 25
+keV. Analoog hieraan kan een elektron van 100 keV bijvoorbeeld de volgende fotonenergieën opwekken: 10 fotonen van 10 keV of 4 fotonen van 25 keV. Daarnaast kan
+een elektron van 100 keV ook nog remstralingsfotonen opwekken met een energie
+hoger dan 50 keV. Het remspectrum wordt dus hoger én breder. Ook kan een hoger
+energetisch elektron meer botsingsprocessen veroorzaken en daarmee meer open
+plaatsen in de elektronenschillen van de wolfraamatomen. Op die manier zullen er
+ook meer karakteristieke wolfraamfotonen ontstaan. Aangezien de energie van deze
+karakteristieke fotonen afhankelijk is van het atoomnummer van wolfraam zal hun
+energie niet beïnvloed worden door de buisspanning (zie fguur 2.19).
+Figuur 2.18 Relatie tussen gloeistroom (Ig
+) en buisstroom(Ib) in een röntgenbuis bij 40 en 60 kV buisspanning
+4,5 5,0 5,5 6,0
+60 kV
+40 kV
+ (A) Ig
+I
+b (mA)
+d e r ö n t g e n b u i s 53
+anode
+fotonen
+e
+_
+e
+_
+e
+_
+Figuur 2.20 Absorptie in de anode door het (sterk vergroot weergegeven) oppervlak van de anode
+0 10 20 30 40 50 60 70 80 90 100
+aantal fotonen
+fotonenergie (keV)
+20 mAs
+20 mAs
+20 mAs
+Figuur 2.19 Röntgenspectrum bij 20 mAs en diverse waarden van het kV
+2.3.4 Dosisverdeling in de bundel
+De intensiteit van de straling is niet homogeen verdeeld in het vlak loodrecht op de
+bundel. Wanneer we de intensiteit van de straling ter plaatse van de centraalstraal
+op 100% stellen, zal er vanuit centraal naar de bundelranden een afname optreden
+van de intensiteit vanwege de grotere afstand tot de focus. Daarnaast zorgt de anode
+zelf ook nog voor een extra intensiteitsafname. Ogenschijnlijk is het oppervlak van
+de anodeschijf glad, maar microscopisch gezien heeft het een zeer onregelmatig
+oppervlak, zeker als de anodeschijf door intensief gebruik is opgeruwd. Aan de
+zijde van de anode is hierdoor de intensiteit van de straling aanzienlijk lager dan
+aan de kathodezijde. De oorzaak hiervan ligt in de gedeeltelijke absorptie van de
+straling in het oppervlak van de anodeschijf zelf. Dat wordt het hieleffect genoemd.
+We kunnen ook gebruikmaken van dit effect, bijvoorbeeld bij een AP-opname van
+de thoracale wervelkolom. Door de buis met de anodezijde aan de bovenkant van
+de patiënt te positioneren zal tijdens de opname de straling met de hoogste intensiteit (aan de kathodezijde) het dikste deel van de patiënt doorstralen. De opname
+zal hierdoor gelijkmatiger worden belicht (zie fguren 2.20 en 2.21).
+54 r a d i o l o g i e
+2.3.5 Stralenkwaliteit van de bundel
+Het energiespectrum van een röntgenbuis is van belang voor de kwaliteit van de
+afbeelding en de huiddosis van de patiënt. Zachte straling van 60 kV heeft een
+geringer doordringend vermogen dan harde straling van 120 kV. De afbeelding van
+weke delen zal met zachte straling een groter contrast te zien geven dan met harde
+straling. Zachte straling zal echter een hogere dosis veroorzaken doordat er meer
+straling aan de intreezijde van de patiënt wordt geabsorbeerd. Het ideaal is monoenergetische straling. Daarmee kan de gebruiker exact de juiste energie kiezen die
+voor een optimale afbeelding nodig is. Helaas bestaat in de röntgendiagnostiek nog
+geen bruikbare mono-energetische bron. Door de aanwezigheid van remstraling zal
+de röntgenbuis een heterogeen stralingsspectrum afgeven waarin meerdere energiecomponenten voorkomen.
+De kwaliteit van de straling kan worden uitgedrukt in de halfwaardedikte (HWD)
+of halveringsdikte (HVD). De HVD is de dikte van het flter dat in de bundel moet
+worden geplaatst om de intensiteit van de straling met de helft te verminderen.
+Aangezien de zachte fotonen meer in een flter worden geabsorbeerd dan de harde
+fotonen, wordt het stralenmengsel na 1 HVD gemiddeld harder. Hierdoor zal de
+tweede HVD groter worden dan de eerste HVD. Hoe heterogener de bundel is, des
+te groter zal het verschil tussen de eerste en de tweede HVD worden.
+96% 104% 100% 79% 35%
+103% 103% CS 92% 60%
+Figuur 2.21 Procentuele dosisverdeling in de bundel veroorzaakt door het hieleffect en de afstand tot de focus
+d e r ö n t g e n b u i s 55
+Door de twee HVD’s op elkaar te delen, ontstaan twee manieren om de homogeniteit c.q. de heterogeniteit van een fotonenbundel uit te drukken.
+homogeniteitsgraad = 1
+2
+e
+e
+HVD
+HVD
+= 2
+1
+e
+e
+HVD
+HVD heterogeniteitsgraad
+Een homogene fotonenbundel heeft een homogeniteitsgraad van 1. Naarmate de
+bundel meer heterogeen wordt, zal de homogeniteitsgraad kleiner worden.
+Bij mono-energetische straling is de heterogeniteitsgraad 1. Bij straling
+met een breder stralingsspectrum zal deze waarde aanzienlijk groter zijn dan 1
+(zie fguur 2.22).
+2.3.6 Filtering
+Bij opnamen met hogere buisspanningen zullen de zachtere stralingscomponenten niet of nauwelijks meewerken aan de beeldvorming en vooral bijdragen
+aan de oppervlakkige dosis aan de intreezijde van de patiënt. Door de stralenbundel door een flter te sturen zullen zachte stralingscomponenten in het fltermateriaal worden geabsorbeerd en zal de hardere straling relatief beter worden
+doorgelaten (zie fguur 2.23).
+Bij een röntgenbuis spreekt men van inherente of eigen fltering als het flter
+bestaat uit materialen die onlosmakelijk verbonden zijn aan de bouw van de buis (zie
+ook subparagraaf 2.1.1 onder ‘Remstraling’).
+Boven op het inherente flter kunnen extra of toegevoegde flters worden gebruikt,
+dat is fltermateriaal dat optioneel in de uittredende bundel kan worden geplaatst. De
+totale flterwaarde van een röntgenbuis is per kV-bereik door de wetgever vastgelegd. De flterwaarde wordt meestal uitgedrukt in het aantal equivalente millimeters
+aluminium (mm Aleq).
+56 r a d i o l o g i e
+0,05
+HVD 1 HVD 2 HVD 3
+HVD 1 < HVD 2 < HVD 3
+0
+0,001
+0,01
+0,1
+1
+10
+25
+dosispercentage (%)
+dikte (cm)
+100
+0,1 0,15 0,2 0,25 0,3 0,35 0,4 0,45 0,5 0,55
+50
+12,50
+0,05
+HVD 1
+HVD 1 = HVD 2 = HVD 3 = HVD 4
+HVD 2 HVD 3 HVD 4
+0
+0,001
+0,01
+0,1
+1
+10
+dosispercentage (%)
+dikte (cm)
+100
+0,1 0,15 0,2 0,25 0,3 0,35 0,4 0,45 0,5 0,55
+50
+25
+12,50
+6,25
+a
+b
+Figuur 2.22 Verzwakkingscurve van mono-energetische (a) en van heterogene straling (b)
+d e r ö n t g e n b u i s 57
+Tabel 2.4 Wettelijk vereiste flterwaarden bij medisch gebruik van röntgenbuizen
+buisspanning minimale flterwaarde
+< 70 kV 1,5 mm Aleq
+70-100 kV 2,0 mm Aleq
+> 100 kV 2,5 mm Aleq
+2.3.7 Bundelbeperking
+Aan de omhulling van de röntgenbuis is een diafragma bevestigd waarmee de afmetingen van de stralenbundel, door middel van verstelbare loodlamellen, kunnen
+worden beperkt. Dit diafragmeren heeft tot doel de patiënt geen straling te laten
+ontvangen die niet voor de opname noodzakelijk is. Tevens wordt door deze bundelbeperking de hoeveelheid strooistraling die uit de patiënt treedt, verminderd en
+daarmee de kwaliteit van de opname verbeterd. Een vast diafragma bestaat uit een
+loodplaatje met daarin een vaste opening. De vorm en de afmetingen van de opening
+zijn afhankelijk van de toepassing van de buis. Zo wordt bijvoorbeeld bij een tandstatief een instelconus gebruikt waarin zich een loodplaatje met een rechthoekig gat
+bevindt. De afmetingen zijn zo gekozen dat altijd een volledige flm in één keer kan
+worden belicht. Bij het verstelbare diafragma kan de gebruiker zelf de grootte van
+de opening instellen (zie fguur 2.24). In het verstelbare diafragma is een lichtvizier
+ingebouwd waarmee de gebruiker de diafragmaopening kan instellen voor het opnameveld. Het lichtvizier bestaat uit een spiegel en een lamp die zodanig zijn geconstrueerd dat de licht- en de röntgenbundel met elkaar overeenkomen.
+Figuur 2.23 Röntgenspectrum met en zonder fltering
+0 10 20 30 40 50 60 70 80 90 100
+aantal fotonen
+fotonenergie (keV)
+80 kV zonder
+extra filter
+80 kV met extra filter
+58 r a d i o l o g i e
+Verstelbare diafragma’s komen voor in een handbediende uitvoering en een
+automatische uitvoering. Bij de automatische uitvoering wordt de opening van
+het diafragma, met behulp van servomotorsturing, bepaald door de grootte van de
+gebruikte detector en de focus-detectorafstand.
+2.4 Belastbaarheid van de röntgenbuis
+2.4.1 Buisbelasting
+Tijdens een röntgenopname zal ongeveer 1% van de elektrische energie die aan de
+buis wordt toegevoerd, worden omgezet in röntgenstraling. De overige 99% wordt
+in thermische energie omgezet. Tijdens een opname kan de anode ter plaatse van de
+F
+a b
+2
+1
+3
+F
+1
+3 2
+Figuur 2.24a en b Schema van het lichtvizier
+1 röntgenstraling doorlatende spiegel 3 lichtbron
+2 diafragmalamellen F focus
+d e r ö n t g e n b u i s 59
+focus dan ook extreem heet worden. De warmte van de anode en van het omringende
+buismateriaal kan zo groot worden dat de anode of zelfs de hele buis ernstig wordt
+beschadigd. De fabrikant van een röntgenbuis zal bij het ontwerpen van de buis
+maatregelen nemen om de belastbaarheid van de buis zo groot mogelijk te maken.
+Wel maakt hij daarbij onderscheid tussen buizen die voor een lage belasting worden
+gebruikt, bijvoorbeeld voor een tandstatief, en buizen die een extreem hoge belasting moeten kunnen verwerken, zoals bij een cardiologisch statief of computertomografe.
+De belasting van een röntgenbuis is evenredig met het elektrisch vermogen en de
+tijdsduur van de belasting. Dat wil zeggen dat de belasting hoger wordt als de buisspanning, de buisstroom en de tijd toenemen.
+belasting = I × U × t = P × t
+I = buisstroom (mA)
+U = buisspanning (kV)
+t = tijd (s)
+P = vermogen (W) = I x U
+De eenheid van de buisbelasting is:
+mA × kV × s = A × V × s = W × s = Ws = J
+2.4.2 Buisnomogram
+De belastbaarheid van een buis is vastgelegd in de belastingskarakteristiek of het
+buisnomogram. In het buisnomogram is de relatie tussen het elektrisch vermogen
+(buisstroom en buisspanning) en de tijdsduur vastgelegd (zie fguur 2.25).
+Het buisnomogram kan worden gebruikt om de belastbaarheid van de buis te
+berekenen. De buisleveranciers hebben afgesproken dat de belastbaarheid van een
+buis met een roterende anode gedefnieerd is als het vermogen dat de buis gedurende 0,1 seconde kan leveren bij een buisspanning van 100 kV. Bij een buis met
+een vaste anode is de belastbaarheid gedefnieerd als het vermogen dat de buis kan
+leveren gedurende 1 seconde, eveneens bij een buisspanning van 100 kV. Het nomogram van fguur 2.25 geldt voor een buis met roterende anode en de maximale buisstroom bij 100 kV en 0,1 s is gelijk aan 350 mA.
+belastbaarheid = P = U × I = 100.103
+ × 350.10¯
+3 = 35.000W = 35 kW
+60 r a d i o l o g i e
+2.4.3 Belastbaarheid van de anode
+De kortetermijnbelastbaarheid van een buis wordt bepaald door de anode. De smelttemperatuur van de anode is daarbij een belangrijke factor. Vaak wordt hiervoor
+wolfraam toegepast vanwege de hoge smelttemperatuur; dit is echter niet voldoende.
+De temperatuur ter plaatse van de focus kan tijdens een opname zo hoog worden dat
+het anodemateriaal dreigt te smelten.
+Bij een buis met een vaste anode kan bijvoorbeeld langs de achterzijde van de
+anode een koelvloeistof worden gevoerd. Door een roterende anode te gebruiken
+kan de warmte over een groter oppervlak worden verspreid. De anodeschijf draait
+met een hoog toerental rond, terwijl de elektronenbundel de anode ruimtelijk gezien
+in hetzelfde punt treft. De anode draait, maar de focus staat stil. De belastbaarheid
+kan worden verhoogd door een hoger toerental of door een grotere diameter van de
+anodeschijf. In de praktijk worden roterende anodes gebruikt met snelheden tussen
+3000 en 9000 tpm. De grootste anodes hebben een diameter van 20 cm.
+De langetermijnbelastbaarheid van een buis wordt vooral bepaald door het warmteafvoerende vermogen van een buis. Als de warmte niet snel genoeg wordt afgevoerd, zal
+de gemiddelde temperatuur van de anode alsnog boven het smeltpunt komen of andere
+delen van de buis beschadigen. De warmtecapaciteit van de anode is het vermogen van
+0,01 0,1 1,0 10
+tijd (s)
+II
+a (mA)
+100
+0
+100
+200
+300
+400
+500
+70 kV
+80 kV
+90 kV
+100 kV
+110 kV
+125 kV
+60 kV
+50 kV
+ 40 kV
+Figuur 2.25 Buisnomogram
+d e r ö n t g e n b u i s 61
+de anodeschotel om de warmte van de focus zo snel mogelijk af te voeren en tijdelijk
+in het schotelmateriaal op te slaan. Als kernmateriaal wordt soms molybdeen gebruikt.
+Molybdeen zorgt voor een snelle geleiding van de warmte naar een groter volume,
+zodat de warmte van de focus zich snel kan verspreiden. Bij hoogvermogenbuizen
+wordt tevens grafet aan de achterzijde van de anodeschotel aangebracht, zodat behalve
+de warmtecapaciteit ook het thermisch emissievermogen van de anode wordt verhoogd
+(zie fguur 2.26). De anode kan dan vanaf de achterzijde de warmte in de vorm van
+straling aan de omgeving van de buis (de buisomhulling) afgeven.
+wolfraam-rhenium
+a anode voor 250 kWsec
+b
+c
+molybdeen
+grafiet
+grafietanode voor 400 kWsec grafiet
+grafietanode voor 1000 kWsec (voor CT)
+Figuur 2.26 Doorsnede van anodes voor diverse belastingen
+De ruimte tussen de buis en de buisomhulling is doorgaans gevuld met olie. De
+olie neemt de warmte op die door de anode wordt uitgestraald. Via de buisomhulling
+wordt de warmte geleidelijk aan de omgeving afgegeven. Voor hoogvermogenbuizen
+wordt oliekoeling van de buisomhulling toegepast door de olie voortdurend rond te
+pompen tussen de buisomhulling en een warmtewisselaar. Warmteafvoer via geleiding is veel effciënter dan via straling, maar het geleidend vermogen van de lagering
+van de buis is zo klein dat er slechts sprake is van een geringe afvoer. Om die reden
+is een buis ontwikkeld die is voorzien van een vloeistofager, dat via vloeibaar metaal
+over een groot oppervlak zijn warmte kan afvoeren naar de buisomhulling.
+2.4.4 Beveiliging tegen overbelasting
+Het maken van een opname met een korte belichtingstijd kan met een hogere buisstroom en buisspanning gebeuren dan een opname met een langere belichtingstijd.
+62 r a d i o l o g i e
+Tijdens de opname zal de temperatuur van de anode toenemen totdat de smelttemperatuur bereikt is. Wordt een opname gemaakt met een lagere buisstroom
+en -spanning, dan zal de opnameduur langer kunnen zijn. In een generator wordt
+rekening gehouden met de toegestane buisbelasting. De fabrikant zal, afhankelijk
+van de toegepaste buis, een nomogrambewaking instellen. Dat betekent dat de generator zelf bewaakt dat de gebruiker geen buisinstelling kiest die boven de grenzen van
+het nomogram uitgaat. Men ziet daarom dat er in de praktijk grenzen zijn aan de te
+kiezen buisspanning, buisstroom en opnametijd. Behalve een bewaking op de instelling van de buis kan de generator ook worden ingesteld op een vallendelastregeling.
+Een opname begint dan met een zo hoog mogelijke stroom, maar na korte tijd zal de
+stroom door de generator geleidelijk worden verlaagd. Deze regeling is zodanig ingesteld dat de generator steeds zo goed mogelijk de curve van het nomogram zal volgen,
+en dat steeds de kortst mogelijke opnametijd wordt bereikt (zie fguur 2.27). Om niet
+continu op het randje van het toelaatbare te balanceren, zijn veel buizen ook uitgerust
+met een 70%-vallendelastregeling.
+Worden meer opnamen snel achter elkaar gemaakt, dan is het bewaken van het
+nomogram onvoldoende omdat de anode steeds warmer zal worden als gevolg van
+de restwarmte van de vorige opname. Met behulp van een warmte-integrator kan de
+generator zelf bijhouden in welke mate cumulatieve warmtetoevoer een onacceptabele waarde zal bereiken. De generator geeft bij een dreigende overbelasting een
+waarschuwing dat enige wachttijd vereist is voordat met een volgende opname(serie)
+kan worden begonnen.
+De warmte die vrijkomt zal de olie in de buisomhulling doen uitzetten, waardoor
+de druk oploopt. Als de olie te veel uitzet, kan de buisomhulling olie gaan lekken
+of de buis inwendig beschadigen. Bovendien betekent een te hoge olietemperatuur
+dat de temperatuur van de buis te hoog is. Door de buis van een expansieruimte en
+een microschakelaar te voorzien, wordt een te hoge druk voorkomen en kan een
+overtemperatuur worden gesignaleerd. Het thermisch overbelasten van een buis kan
+de levensduur van de buis aanzienlijk bekorten. De beveiligingssystemen zijn niet
+bedoeld om opnamen af te breken, maar om de gebruiker te waarschuwen. Het is de
+verantwoording van de gebruiker om overbelasting te voorkomen. buisstroom (mA)
+80 kV, 100%
+80 kV, 70%
+tijd (s)
+Figuur 2.27 Vallendelastregeling
+d e r ö n t g e n b u i s 63
+2.5 Buistypen
+2.5.1 Specifcaties
+De beeldvorming in de röntgendiagnostiek kent een veelheid aan onderzoeken. Het
+toestel bij de tandarts ziet er niet alleen anders uit dan een computertomograaf (CT),
+ook de buizen zijn totaal verschillend. Elke toepassing stelt haar eigen eisen aan de
+röntgenbuis. Buizen kunnen worden onderscheiden op de volgende kenmerken:
+r belastbaarheid;
+r focus;
+r anodehoek;
+r maximale buisspanning;
+r anodemateriaal.
+2.5.2 Belastbaarheid
+Bij kortdurende belasting
+Men spreekt van kortdurende belastingen indien de opnameduur beperkt blijft tot
+maximaal 0,1 seconde. Bij kortdurende belastingen is vooral de maximaal toelaatbare
+belasting van de focus van belang. Voor standaard buckyopnamen is dit dan ook
+bepalend bij de keuze van de buis.
+Bij langdurende belasting
+Langdurende belastingen komen voor bij een opnametijd langer dan 0,1 seconde en
+bij serieopnamen, zoals angiografeseries en CT-buizen. In dit verband zijn vooral de
+warmtecapaciteit en de koelcapaciteit van de buis belangrijk.
+2.5.3 Focus
+De hoge spatiële resolutie bij mammografe vereist een buis met een kleine focus om
+daarmee de geometrische onscherpte zo klein mogelijk te maken. Stelt men echter
+minder hoge eisen aan de spatiële resolutie en is een korte opnametijd belangrijker, dan is een grotere focus vereist. Bij de thorax past men veelal een grote focusdetectorafstand toe. Daarmee is het systeem minder kritisch voor geometrische
+onscherpte (onscherpte in een opname die onder andere wordt veroorzaakt door de
+afmeting van de focus) en kan een buis met een grotere focus worden toegepast.
+2.5.4 Anodehoek
+Zoals eerder aangegeven bepaalt de anodehoek de verhouding tussen de werkelijke focusgrootte en de geprojecteerde focusgrootte. Uitgaande van een bepaalde werkelijke focusgrootte zal de geprojecteerde focusgrootte kleiner worden bij een kleinere anodehoek.
+Ook de daarbij behorende maximale veldgrootte wordt dan kleiner (zie fguur 2.16). De
+maximale veldgrootte van 35 × 43 cm2
+ bij een buckyopname moet bij een minimale focusdetectorafstand van 70 cm belicht kunnen worden. Om dit te verwezenlijken mag de
+anodehoek in röntgenbuizen voor buckyopnamen niet veel kleiner zijn dan 20 graden.
+64 r a d i o l o g i e
+2.5.5 Mammografe
+Mammografe is het zichtbaar maken van verzwakkingsverschillen tussen het veten klierweefsel in de borst. Omdat beide weefsels tot de weke delen behoren, is
+echter sprake van een nagenoeg gelijke verzwakking van röntgenstraling, opgewekt
+bij buisspanningen van 40 kV en hoger, waardoor het verkrijgen van voldoende
+contrast lastig is. Bij gebruik van conventionele flm-schermcombinaties is dit dus
+uitsluitend mogelijk met veel lagere buisspanningen dan gebruikelijk. Lagere fotonenergieën worden immers beter verzwakt, waardoor er ook grotere verzwakkingsverschillen ontstaan en dus grotere contrasten. Vooral fotonenergieën tussen 17 en
+20 keV zijn bij conventionele flm-schermcombinaties ideaal. Daarom wordt er bij
+mammografe gekozen voor molybdeen als anodemateriaal. Molybdeen wordt bij
+andere röntgenbuizen ook toegepast achter de wolfraamlaag vanwege de hoge warmtecapaciteit. Bij een mammografebuis wordt molybdeen echter gekozen als daadwerkelijk targetmateriaal vanwege de fotonenergie van de karakteristieke straling
+van dit element. Molybdeen kent namelijk twee karakteristieke pieken, bij 17,6 en
+19,7 keV. Vanwege het lagere atoomnummer (ZMo= 42) is de remstralingsproductie
+duidelijk minder, waardoor een röntgenspectrum ontstaat waarin de twee karakteristieke pieken prominent zijn. Wanneer daarnaast gebruik wordt gemaakt van een
+extra flter van molybdeen, zullen met name de fotonenergieën boven de 20 keV
+aanzienlijk worden verzwakt. Ook bij fotonenergieën lager dan 15 keV is sprake van
+een sterke verzwakking door de combinatie van het inherente buisflter en het extra
+molybdeenflter. Vanwege de bindingsenergie van de K-schilelektronen in molybdeen ligt de K-sprong van de lineïeke verzwakkingscoëffciënt bij dit materiaal bij
+ongeveer 20 keV. Dit wordt ook wel selectieve absorptie genoemd.
+Hierdoor is de absorptie van fotonenergieën in molybdeen tussen 15 en
+20 keV duidelijk lager dan van de overige fotonenergieën. Er wordt daarom ook
+wel gesproken van een gat in het flter voor fotonen tussen de 15 keV en 20 keV
+(zie fguur 2.28a en b).
+fotonenergie (keV)
+0 5 10
+a b
+15 20 25 30 35
+Mo-anode
+0ngefilterd
+inherent plus
+Mo-filter
+aantal fotonen per mm2
+fotonenergie (keV)
+molybdeen
+0 5 10 15 2 20 5 30 35
+lineïeke verzwakkingscoëffiënt: µ in cm-1
+Figuur 2.28
+a röntgenspectrum van een molybdeenanode bij een buisspanning van 28 kV
+b verzwakking in een molybdeenflter bij een buisspanning van 28 kV
+d e r ö n t g e n b u i s 65
+Afhankelijk van de objectsamenstelling en objectdikte kiest een MBB’er de belichtingsgegevens kV en mAs. Aangezien de gekozen buisspanning in bovenstaande
+situatie weinig invloed heeft op de hoogte van de fotonenergie wordt hiervoor een
+andere methode gebruikt. Om de hoogte van de uittredende fotonenergie enigszins
+te verhogen kan bij een molybdeenanode worden gekozen voor een rhodiumflter.
+Samen met het inherente buisflter heeft het rhodiumflter een ‘gat’ voor fotonenergieën tussen de 15 keV en 23 keV. Daardoor zullen iets hogere fotonenergieën uittreden
+(zie fguur 2.29a en b).
+Om de fotonenergie nog verder te verhogen, zou men gebruik kunnen maken
+van rhodium als anodemateriaal in combinatie met een rhodium flter (zie fguur
+2.30a en b).
+Veel mammografeapparatuur voor toepassing met conventionele flm-schermcombinaties had een anodeschijf met dubbele focusbaan. Door de elektronenbundel
+vanuit de kathode elektronisch te sturen kon men op die manier kiezen tussen de
+Figuur 2.29
+a röntgenspectrum van een molybdeenanode bij een buisspanning van 28 kV
+b verzwakking in een rhodiumflter bij een buisspanning van 28 kV
+fotonenergie (keV)
+rhodium
+0 5 10 15 2 20 5 30 35
+lineïeke verzwakkingscoëffiënt: µ in cm-1
+fotonenergie (keV)
+0 5
+a b
+10 15 20 25 30 35
+Mo-anode
+0ngefilterd
+inherent plus
+Rh-filter
+aantal fotonen per mm2
+Figuur 2.30
+a röntgenspectrum van een rhodiumanode bij een buisspanning van 30 kV
+b verzwakking in een rhodiumflter bij een buisspanning van 30 kV
+ Rh-anode
+ongefilterd
+inherent plus
+Rh-filter
+fotonenergie(keV)
+aantal fotonen per mm2 0 5 10 15 20 25 30 35
+fotonenergie (keV)
+rhodium
+0 5
+a b
+10 15 20 25 30 35
+lineïeke verzwakkingscoëffiënt: µ in cm-1
+66 r a d i o l o g i e
+molybdeenbaan of de rhodiumbaan. Daarnaast had men de keuze om molybdeen of
+rhodium te gebruiken als extra flter.
+Tegenwoordig wordt er ook voor mammografe steeds meer gebruikgemaakt van
+digitale detectoren. In vergelijking met de conventionele flm-schermcombinaties
+bezitten de digitale detectoren een veel groter dynamisch bereik, waardoor het gebruik
+van hogere fotonenergieën ook mogelijk wordt met behoud van contrast. Als targetmateriaal binnen een mammografebuis is dan wolfraam weer te verkiezen boven
+molybdeen of rhodium. Het röntgenspectrum dat hierbij wordt opgewekt is uitsluitend opgebouwd uit remstraling omdat karakteristieke wolfraamstraling immers pas
+ontstaat bij buisspanningen boven de 70 kV. Door dit spectrum te flteren met een
+rhodium- of zilverflter ontstaan de röntgenspectra zoals weergegeven in de fguren
+2.31 en 2.32. Omdat de hogere fotonenergieën gepaard kunnen gaan met lagere mAswaarden zal de patiëntdosis lager worden. Deze dosisverlaging kan oplopen tot 20%
+of meer. Het ligt dan ook in de lijn der verwachting dat de Mo/Rh dual-focusbuizen
+steeds minder toepassing zullen vinden.
