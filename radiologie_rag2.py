@@ -2,7 +2,7 @@ import os
 import streamlit as st
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
-from langchain_community.vectorstores import FAISS
+from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import OllamaEmbeddings
 
 VECTORSTORE_PATH = "radiologie_db"
@@ -17,9 +17,6 @@ def load_txt_chunks(file_path):
 
     return chunks
 
-from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import OllamaEmbeddings
-
 def build_vectorstore(chunks):
     st.info("🚀 Nieuwe vectorstore wordt opgebouwd...")
 
@@ -33,14 +30,14 @@ def build_vectorstore(chunks):
     embedded_vectors = []
 
     for i, text in enumerate(texts):
-        emb = embedding_model.embed_documents([text])  # embed één tekst
+        emb = embedding_model.embed_documents([text])
         embedded_texts.append(text)
-        embedded_vectors.append(emb[0])  # eerste (en enige) vector
+        embedded_vectors.append(emb[0]) 
         progress.progress((i + 1) / total)
 
-    # Combineer tekst + embedding en maak de vectorstore
-    vectordb = FAISS.from_embeddings(
-        [(text, vector) for text, vector in zip(embedded_texts, embedded_vectors)],
+    vectordb = Chroma.from_documents(
+        embedded_texts,
+        embedded_vectors,
         embedding=embedding_model
     )
 
@@ -50,7 +47,7 @@ def build_vectorstore(chunks):
 
 def load_vectorstore():
     st.info("📁 Bestaande vectorstore wordt geladen...")
-    return FAISS.load_local(
+    return Chroma.load_local(
         VECTORSTORE_PATH,
         embeddings=OllamaEmbeddings(model="nomic-embed-text"),
         allow_dangerous_deserialization=True  
