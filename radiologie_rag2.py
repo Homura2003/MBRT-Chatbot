@@ -30,11 +30,12 @@ def build_vectorstore(chunks):
     embedded_vectors = []
 
     for i, text in enumerate(texts):
-        emb = embedding_model.embed_documents([text])
+        emb = embedding_model.embed_documents([text])  # embed één tekst
         embedded_texts.append(text)
-        embedded_vectors.append(emb[0]) 
+        embedded_vectors.append(emb[0])  # eerste (en enige) vector
         progress.progress((i + 1) / total)
 
+    # Gebruik Chroma in plaats van FAISS
     vectordb = Chroma.from_documents(
         embedded_texts,
         embedded_vectors,
@@ -47,11 +48,14 @@ def build_vectorstore(chunks):
 
 def load_vectorstore():
     st.info("📁 Bestaande vectorstore wordt geladen...")
-    return Chroma.load_local(
-        VECTORSTORE_PATH,
-        embeddings=OllamaEmbeddings(model="nomic-embed-text"),
-        allow_dangerous_deserialization=True  
-    )
+
+    # Laden van de vectorstore door gebruik te maken van de Chroma constructor
+    if os.path.exists(VECTORSTORE_PATH):
+        vectordb = Chroma.load(VECTORSTORE_PATH, embedding=OllamaEmbeddings(model="nomic-embed-text"))
+        return vectordb
+    else:
+        st.error("❌ Geen vectorstore gevonden!")
+        return None
 
 # Streamlit-app
 st.title("📚 Radiologie Assistent")
