@@ -2,6 +2,7 @@ import os
 import streamlit as st
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
+from langchain.vectorstores import Chroma
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import OllamaEmbeddings
 
@@ -48,11 +49,10 @@ def build_vectorstore(chunks):
 
 def load_vectorstore():
     st.info("📁 Bestaande vectorstore wordt geladen...")
-    
-    # Controleer of het pad naar de vectorstore bestaat
+
     if os.path.exists(VECTORSTORE_PATH):
-        # Gebruik de juiste methode om de vectorstore te laden
-        vectordb = Chroma.load(VECTORSTORE_PATH, embedding_function=OllamaEmbeddings(model="nomic-embed-text"))
+        # Laad de vectorstore via Chroma met de juiste initialisatie
+        vectordb = Chroma(persist_directory=VECTORSTORE_PATH, embedding_function=OllamaEmbeddings(model="nomic-embed-text"))
         st.success("✅ Vectorstore succesvol geladen!")
         return vectordb
     else:
