@@ -4,10 +4,16 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
 from langchain_community.vectorstores import InMemoryVectorStore
 from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain.chains import ConversationalRetrievalChain
+from langchain_community.llms import HuggingFaceHub
 import json
 
 VECTORSTORE_PATH = "radiologie_db"
 DOCUMENTS_FILE = os.path.join(VECTORSTORE_PATH, "documents.json")
+
+# Initialize session state for chat history
+if "chat_history" not in st.session_state:
+    st.session_state.chat_history = []
 
 def ensure_directory_exists():
     if not os.path.exists(VECTORSTORE_PATH):
@@ -86,6 +92,7 @@ st.title("📚 Radiologie Assistent")
 if not os.path.exists("uploads"):
     os.makedirs("uploads")
 
+# Initialize or load vector store
 if not os.path.exists(DOCUMENTS_FILE):
     if os.path.exists("uploads") and any(f.endswith(".txt") for f in os.listdir("uploads")):
         txt_files = [f for f in os.listdir("uploads") if f.endswith(".txt")]
@@ -95,6 +102,51 @@ if not os.path.exists(DOCUMENTS_FILE):
             vectordb = build_vectorstore(chunks)
     else:
         st.warning("⚠️ Geen .txt-bestanden gevonden in map 'uploads'.")
+        vectordb = None
 else:
     vectordb = load_vectorstore()
+
+# Chat interface
+if vectordb is not None:
+    # Initialize the LLM
+    llm = HuggingFaceHub(
+        repo_id="google/flan-t5-large",
+        model_kwargs={"temperature": 0.5, "max_length": 512}
+    )
+
+    # Create the conversational chain
+    qa_chain = ConversationalRetrievalChain.from_llm(
+        llm=llm,
+        retriever=vectordb.as_retriever(search_kwargs={"k": 3}),
+        return_source_documents=True
+    )
+
+    # Display chat messages
+    for message in st.session_state.chat_history:
+        with st.chat_message(message["role"]):
+            st.write(message["content"])
+
+    # Chat input
+    if prompt := st.chat_input("Stel een vraag over de radiologie documenten"):
+        # Add user message to chat history
+        st.session_state.chat_history.append({"role": "user", "content": prompt})
+        
+        # Display user message
+        with st.chat_message("user"):
+            st.write(prompt)
+
+        # Get response from the chain
+        with st.chat_message("assistant"):
+            with st.spinner("Denken..."):
+                response = qa_chain({"question": prompt, "chat_history": st.session_state.chat_history})
+                st.write(response["answer"])
+                
+                # Add assistant response to chat history
+                st.session_state.chat_history.append({"role": "assistant", "content": response["answer"]})
+
+                # Display source documents
+                with st.expander("Bronnen"):
+                    for doc in response["source_documents"]:
+                        st.write(doc.page_content)
+                        st.write("---")
 
