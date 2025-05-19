@@ -3,9 +3,8 @@ import streamlit as st
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
 from langchain_community.vectorstores import InMemoryVectorStore
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain.chains import ConversationalRetrievalChain
-from langchain_community.llms import HuggingFaceHub
 import json
 
 VECTORSTORE_PATH = "radiologie_db"
@@ -32,11 +31,8 @@ def load_txt_chunks(file_path):
 def build_vectorstore(chunks):
     st.info("🚀 Nieuwe vectorstore wordt opgebouwd...")
 
-    # Initialize HuggingFace embeddings
-    embedding_model = HuggingFaceEmbeddings(
-        model_name="sentence-transformers/all-MiniLM-L6-v2",
-        model_kwargs={'device': 'cpu'}
-    )
+    # Initialize OpenAI embeddings
+    embedding_model = OpenAIEmbeddings()
     
     # Create in-memory vector store from documents
     vectordb = InMemoryVectorStore.from_documents(
@@ -62,11 +58,8 @@ def load_vectorstore():
         return None
 
     try:
-        # Initialize HuggingFace embeddings
-        embedding_model = HuggingFaceEmbeddings(
-            model_name="sentence-transformers/all-MiniLM-L6-v2",
-            model_kwargs={'device': 'cpu'}
-        )
+        # Initialize OpenAI embeddings
+        embedding_model = OpenAIEmbeddings()
         
         # Load documents
         with open(DOCUMENTS_FILE, "r", encoding="utf-8") as f:
@@ -109,9 +102,9 @@ else:
 # Chat interface
 if vectordb is not None:
     # Initialize the LLM
-    llm = HuggingFaceHub(
-        repo_id="google/flan-t5-large",
-        model_kwargs={"temperature": 0.5, "max_length": 512}
+    llm = ChatOpenAI(
+        model_name="gpt-3.5-turbo",
+        temperature=0.7
     )
 
     # Create the conversational chain
@@ -149,4 +142,3 @@ if vectordb is not None:
                     for doc in response["source_documents"]:
                         st.write(doc.page_content)
                         st.write("---")
-
