@@ -6,6 +6,7 @@ from langchain_community.vectorstores import InMemoryVectorStore
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain.chains import ConversationalRetrievalChain
 import json
+from openai import OpenAI
 
 VECTORSTORE_PATH = "radiologie_db"
 DOCUMENTS_FILE = os.path.join(VECTORSTORE_PATH, "documents.json")
@@ -31,8 +32,9 @@ def load_txt_chunks(file_path):
 def build_vectorstore(chunks):
     st.info("🚀 Nieuwe vectorstore wordt opgebouwd...")
 
-    # Initialize OpenAI embeddings
-    embedding_model = OpenAIEmbeddings()
+    # Initialize OpenAI embeddings with explicit client
+    client = OpenAI()
+    embedding_model = OpenAIEmbeddings(client=client)
     
     # Create in-memory vector store from documents
     vectordb = InMemoryVectorStore.from_documents(
@@ -58,8 +60,9 @@ def load_vectorstore():
         return None
 
     try:
-        # Initialize OpenAI embeddings
-        embedding_model = OpenAIEmbeddings()
+        # Initialize OpenAI embeddings with explicit client
+        client = OpenAI()
+        embedding_model = OpenAIEmbeddings(client=client)
         
         # Load documents
         with open(DOCUMENTS_FILE, "r", encoding="utf-8") as f:
@@ -103,8 +106,10 @@ else:
 
 # Chat interface
 if vectordb is not None:
-    # Initialize the LLM
+    # Initialize the LLM with explicit client
+    client = OpenAI()
     llm = ChatOpenAI(
+        client=client,
         model_name="gpt-3.5-turbo",
         temperature=0.7
     )
@@ -144,4 +149,5 @@ if vectordb is not None:
                     for doc in response["source_documents"]:
                         st.write(doc.page_content)
                         st.write("---")
+
 
