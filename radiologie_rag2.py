@@ -9,7 +9,7 @@ from langchain.chains import ConversationalRetrievalChain
 import json
 
 # Get HuggingFace token from Streamlit secrets
-HUGGINGFACE_TOKEN = st.secrets["HUGGINGFACEHUB_API_TOKEN"]
+HUGGINGFACE_TOKEN = st.secrets["HUGGINGFACE_API_KEY"]
 
 VECTORSTORE_PATH = "radiologie_db"
 DOCUMENTS_FILE = os.path.join(VECTORSTORE_PATH, "documents.json")
@@ -155,4 +155,5 @@ if vectordb is not None:
                     for doc in response["source_documents"]:
                         st.write(doc.page_content)
                         st.write("---")
+
 
