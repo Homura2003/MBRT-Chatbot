@@ -2,7 +2,7 @@ import os
 import streamlit as st
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
-from langchain_community.vectorstores.hnsw import HNSWLib
+from langchain_community.vectorstores import Annoy
 from langchain_community.embeddings import OllamaEmbeddings
 
 VECTORSTORE_PATH = "radiologie_db"
@@ -22,10 +22,11 @@ def build_vectorstore(chunks):
 
     embedding_model = OllamaEmbeddings(model="nomic-embed-text")
     
-    # Create HNSW vector store from documents
-    vectordb = HNSWLib.from_documents(
+    # Create Annoy vector store from documents
+    vectordb = Annoy.from_documents(
         documents=chunks,
-        embedding=embedding_model
+        embedding=embedding_model,
+        n_trees=10  # Number of trees for Annoy index
     )
 
     # Save the vector store
@@ -38,7 +39,7 @@ def load_vectorstore():
 
     if os.path.exists(VECTORSTORE_PATH):
         embedding_model = OllamaEmbeddings(model="nomic-embed-text")
-        vectordb = HNSWLib.load_local(
+        vectordb = Annoy.load_local(
             folder_path=VECTORSTORE_PATH,
             embeddings=embedding_model
         )
@@ -62,5 +63,3 @@ if not os.path.exists(VECTORSTORE_PATH):
         st.warning("⚠️ Geen .txt-bestanden gevonden in map 'uploads'.")
 else:
     vectordb = load_vectorstore()
-
-
