@@ -1,31 +1,9 @@
 import os
 import streamlit as st
-import sqlite3
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
-from langchain_community.vectorstores import Chroma
+from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import OllamaEmbeddings
-
-# Check SQLite version
-def check_sqlite_version():
-    version = sqlite3.sqlite_version
-    version_tuple = tuple(map(int, version.split('.')))
-    required_version = (3, 35, 0)
-    
-    if version_tuple < required_version:
-        st.error(f"""
-        ⚠️ SQLite version {version} is not supported. Chroma requires SQLite >= 3.35.0.
-        
-        Please try one of these solutions:
-        1. Deploy to a different environment with newer SQLite
-        2. Use a different vector store like FAISS
-        3. Contact Streamlit support about SQLite version
-        """)
-        st.stop()
-    return True
-
-# Check SQLite version before proceeding
-check_sqlite_version()
 
 VECTORSTORE_PATH = "radiologie_db"
 
@@ -44,14 +22,14 @@ def build_vectorstore(chunks):
 
     embedding_model = OllamaEmbeddings(model="nomic-embed-text")
     
-    # Create Chroma directly from documents
-    vectordb = Chroma.from_documents(
+    # Create FAISS vector store from documents
+    vectordb = FAISS.from_documents(
         documents=chunks,
-        embedding=embedding_model,
-        persist_directory=VECTORSTORE_PATH
+        embedding=embedding_model
     )
 
-    vectordb.persist()
+    # Save the vector store
+    vectordb.save_local(VECTORSTORE_PATH)
     st.success("✅ Vectorstore succesvol opgeslagen!")
     return vectordb
 
@@ -60,9 +38,9 @@ def load_vectorstore():
 
     if os.path.exists(VECTORSTORE_PATH):
         embedding_model = OllamaEmbeddings(model="nomic-embed-text")
-        vectordb = Chroma(
-            persist_directory=VECTORSTORE_PATH,
-            embedding_function=embedding_model
+        vectordb = FAISS.load_local(
+            folder_path=VECTORSTORE_PATH,
+            embeddings=embedding_model
         )
         st.success("✅ Vectorstore succesvol geladen!")
         return vectordb
@@ -84,6 +62,3 @@ if not os.path.exists(VECTORSTORE_PATH):
         st.warning("⚠️ Geen .txt-bestanden gevonden in map 'uploads'.")
 else:
     vectordb = load_vectorstore()
-
-
-
