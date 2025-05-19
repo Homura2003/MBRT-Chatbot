@@ -7,4 +7,3 @@ python-dotenv==1.0.1
 streamlit==1.45.1
 tiktoken==0.9.0
 numpy>=1.25.0,<3.0
-sentence-transformers==2.5.1
