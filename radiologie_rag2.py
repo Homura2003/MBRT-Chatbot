@@ -8,6 +8,9 @@ from langchain_community.llms import HuggingFaceHub
 from langchain.chains import ConversationalRetrievalChain
 import json
 
+# Get HuggingFace token from Streamlit secrets
+HUGGINGFACE_TOKEN = st.secrets["HUGGINGFACEHUB_API_TOKEN"]
+
 VECTORSTORE_PATH = "radiologie_db"
 DOCUMENTS_FILE = os.path.join(VECTORSTORE_PATH, "documents.json")
 
@@ -110,9 +113,10 @@ else:
 
 # Chat interface
 if vectordb is not None:
-    # Initialize the LLM
+    # Initialize the LLM with HuggingFace token
     llm = HuggingFaceHub(
         repo_id="google/flan-t5-large",
+        huggingfacehub_api_token=HUGGINGFACE_TOKEN,
         model_kwargs={"temperature": 0.7, "max_length": 512}
     )
 
@@ -151,3 +155,4 @@ if vectordb is not None:
                     for doc in response["source_documents"]:
                         st.write(doc.page_content)
                         st.write("---")
+
