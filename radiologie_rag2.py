@@ -2,7 +2,7 @@ import os
 import streamlit as st
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
-from langchain_community.vectorstores import HNSWLib
+from langchain_community.vectorstores.hnsw import HNSWLib
 from langchain_community.embeddings import OllamaEmbeddings
 
 VECTORSTORE_PATH = "radiologie_db"
