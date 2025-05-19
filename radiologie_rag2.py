@@ -85,7 +85,10 @@ st.title("📚 Radiologie Assistent")
 if not os.path.exists("uploads"):
     os.makedirs("uploads")
 
-# Initialize or load vector store
+# Initialize vector store
+vectordb = None
+
+# Load or create vector store
 if not os.path.exists(DOCUMENTS_FILE):
     if os.path.exists("uploads") and any(f.endswith(".txt") for f in os.listdir("uploads")):
         txt_files = [f for f in os.listdir("uploads") if f.endswith(".txt")]
@@ -95,7 +98,6 @@ if not os.path.exists(DOCUMENTS_FILE):
             vectordb = build_vectorstore(chunks)
     else:
         st.warning("⚠️ Geen .txt-bestanden gevonden in map 'uploads'.")
-        vectordb = None
 else:
     vectordb = load_vectorstore()
 
@@ -142,3 +144,4 @@ if vectordb is not None:
                     for doc in response["source_documents"]:
                         st.write(doc.page_content)
                         st.write("---")
+
