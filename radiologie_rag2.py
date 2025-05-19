@@ -41,7 +41,8 @@ def load_vectorstore():
         embedding_model = OllamaEmbeddings(model="nomic-embed-text")
         vectordb = Annoy.load_local(
             folder_path=VECTORSTORE_PATH,
-            embeddings=embedding_model
+            embeddings=embedding_model,
+            allow_dangerous_deserialization=True  
         )
         st.success("✅ Vectorstore succesvol geladen!")
         return vectordb
