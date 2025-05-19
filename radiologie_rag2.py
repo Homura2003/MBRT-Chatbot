@@ -2,7 +2,7 @@ import os
 import streamlit as st
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
-from langchain_community.vectorstores import FAISS
+from langchain_community.vectorstores import HNSWLib
 from langchain_community.embeddings import OllamaEmbeddings
 
 VECTORSTORE_PATH = "radiologie_db"
@@ -22,8 +22,8 @@ def build_vectorstore(chunks):
 
     embedding_model = OllamaEmbeddings(model="nomic-embed-text")
     
-    # Create FAISS vector store from documents
-    vectordb = FAISS.from_documents(
+    # Create HNSW vector store from documents
+    vectordb = HNSWLib.from_documents(
         documents=chunks,
         embedding=embedding_model
     )
@@ -38,10 +38,9 @@ def load_vectorstore():
 
     if os.path.exists(VECTORSTORE_PATH):
         embedding_model = OllamaEmbeddings(model="nomic-embed-text")
-        vectordb = FAISS.load_local(
+        vectordb = HNSWLib.load_local(
             folder_path=VECTORSTORE_PATH,
-            embeddings=embedding_model,
-            allow_dangerous_deserialization=True  
+            embeddings=embedding_model
         )
         st.success("✅ Vectorstore succesvol geladen!")
         return vectordb
@@ -63,3 +62,5 @@ if not os.path.exists(VECTORSTORE_PATH):
         st.warning("⚠️ Geen .txt-bestanden gevonden in map 'uploads'.")
 else:
     vectordb = load_vectorstore()
+
+
