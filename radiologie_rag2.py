@@ -3,10 +3,10 @@ import streamlit as st
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
 from langchain_community.vectorstores import InMemoryVectorStore
-from langchain_openai import OpenAIEmbeddings, ChatOpenAI
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.llms import HuggingFaceHub
 from langchain.chains import ConversationalRetrievalChain
 import json
-from openai import OpenAI
 
 VECTORSTORE_PATH = "radiologie_db"
 DOCUMENTS_FILE = os.path.join(VECTORSTORE_PATH, "documents.json")
@@ -32,9 +32,11 @@ def load_txt_chunks(file_path):
 def build_vectorstore(chunks):
     st.info("🚀 Nieuwe vectorstore wordt opgebouwd...")
 
-    # Initialize OpenAI embeddings with explicit client
-    client = OpenAI()
-    embedding_model = OpenAIEmbeddings(client=client)
+    # Initialize HuggingFace embeddings
+    embedding_model = HuggingFaceEmbeddings(
+        model_name="sentence-transformers/all-MiniLM-L6-v2",
+        model_kwargs={'device': 'cpu'}
+    )
     
     # Create in-memory vector store from documents
     vectordb = InMemoryVectorStore.from_documents(
@@ -60,9 +62,11 @@ def load_vectorstore():
         return None
 
     try:
-        # Initialize OpenAI embeddings with explicit client
-        client = OpenAI()
-        embedding_model = OpenAIEmbeddings(client=client)
+        # Initialize HuggingFace embeddings
+        embedding_model = HuggingFaceEmbeddings(
+            model_name="sentence-transformers/all-MiniLM-L6-v2",
+            model_kwargs={'device': 'cpu'}
+        )
         
         # Load documents
         with open(DOCUMENTS_FILE, "r", encoding="utf-8") as f:
@@ -106,12 +110,10 @@ else:
 
 # Chat interface
 if vectordb is not None:
-    # Initialize the LLM with explicit client
-    client = OpenAI()
-    llm = ChatOpenAI(
-        client=client,
-        model_name="gpt-3.5-turbo",
-        temperature=0.7
+    # Initialize the LLM
+    llm = HuggingFaceHub(
+        repo_id="google/flan-t5-large",
+        model_kwargs={"temperature": 0.7, "max_length": 512}
     )
 
     # Create the conversational chain
@@ -149,5 +151,3 @@ if vectordb is not None:
                     for doc in response["source_documents"]:
                         st.write(doc.page_content)
                         st.write("---")
-
-
