@@ -7,7 +7,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.llms import HuggingFaceHub
 from langchain.chains import ConversationalRetrievalChain
 import json
-from typing import List, Optional
+from typing import List, Optional, Tuple
 import time
 
 # Get HuggingFace token from Streamlit secrets
@@ -18,7 +18,7 @@ DOCUMENTS_FILE = os.path.join(VECTORSTORE_PATH, "documents.json")
 
 # Initialize session state for chat history and rate limiting
 if "chat_history" not in st.session_state:
-    st.session_state.chat_history = []
+    st.session_state.chat_history = []  # Will store tuples of (human_message, ai_message)
 if "last_request_time" not in st.session_state:
     st.session_state.last_request_time = 0
 
@@ -150,17 +150,16 @@ if vectordb is not None:
         )
 
         # Toon chat berichten
-        for message in st.session_state.chat_history:
-            with st.chat_message(message["role"]):
-                st.write(message["content"])
+        for human_msg, ai_msg in st.session_state.chat_history:
+            with st.chat_message("user"):
+                st.write(human_msg)
+            with st.chat_message("assistant"):
+                st.write(ai_msg)
 
         # Chat input
         if prompt := st.chat_input("Stel een vraag over de radiologie documenten"):
             # Rate limiting
             rate_limit()
-            
-            # Voeg gebruikersbericht toe aan chat geschiedenis
-            st.session_state.chat_history.append({"role": "user", "content": prompt})
             
             # Toon gebruikersbericht
             with st.chat_message("user"):
@@ -173,8 +172,8 @@ if vectordb is not None:
                         response = qa_chain({"question": prompt, "chat_history": st.session_state.chat_history})
                         st.write(response["answer"])
                         
-                        # Voeg assistent antwoord toe aan chat geschiedenis
-                        st.session_state.chat_history.append({"role": "assistant", "content": response["answer"]})
+                        # Voeg het gesprek toe aan de chat geschiedenis
+                        st.session_state.chat_history.append((prompt, response["answer"]))
 
                         # Toon bron documenten
                         with st.expander("Bronnen"):
@@ -185,5 +184,6 @@ if vectordb is not None:
                         st.error(f"Fout bij het genereren van antwoord: {str(e)}")
     except Exception as e:
         st.error(f"Fout bij het initialiseren van chat interface: {str(e)}")
+
 
 
