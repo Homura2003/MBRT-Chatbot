@@ -1,4 +1,5 @@
 import os
+import sys
 import streamlit as st
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
@@ -10,8 +11,17 @@ import json
 from typing import List, Optional, Tuple
 import time
 
+# Check Python version
+if sys.version_info >= (3, 12):
+    st.error("⚠️ Deze applicatie is niet compatibel met Python 3.12. Gebruik Python 3.8-3.11.")
+    st.stop()
+
 # Get HuggingFace token from Streamlit secrets
-HUGGINGFACE_TOKEN = st.secrets["HUGGINGFACE_API_KEY"]
+try:
+    HUGGINGFACE_TOKEN = st.secrets["HUGGINGFACE_API_KEY"]
+except Exception as e:
+    st.error("⚠️ Kon de HuggingFace API key niet vinden in de Streamlit secrets.")
+    st.stop()
 
 VECTORSTORE_PATH = "radiologie_db"
 DOCUMENTS_FILE = os.path.join(VECTORSTORE_PATH, "documents.json")
@@ -31,10 +41,14 @@ def ensure_directory_exists():
 @st.cache_resource
 def get_embedding_model():
     """Cache het embedding model om herladen te voorkomen."""
-    return HuggingFaceEmbeddings(
-        model_name="sentence-transformers/all-MiniLM-L6-v2",
-        model_kwargs={'device': 'cpu'}
-    )
+    try:
+        return HuggingFaceEmbeddings(
+            model_name="sentence-transformers/all-MiniLM-L6-v2",
+            model_kwargs={'device': 'cpu'}
+        )
+    except Exception as e:
+        st.error(f"⚠️ Fout bij het laden van het embedding model: {str(e)}")
+        st.stop()
 
 def load_txt_chunks(file_path: str) -> List[Document]:
     """Laad en split tekst uit een bestand."""
@@ -139,7 +153,12 @@ if vectordb is not None:
         llm = HuggingFaceHub(
             repo_id="google/flan-t5-large",
             huggingfacehub_api_token=HUGGINGFACE_TOKEN,
-            model_kwargs={"temperature": 0.7, "max_length": 512}
+            model_kwargs={
+                "temperature": 0.7,
+                "max_length": 512,
+                "device_map": "auto"
+            },
+            task="text2text-generation"
         )
 
         # Maak de conversationele chain
@@ -182,8 +201,12 @@ if vectordb is not None:
                                 st.write("---")
                     except Exception as e:
                         st.error(f"Fout bij het genereren van antwoord: {str(e)}")
+                        st.error("Probeer de pagina te verversen en opnieuw te beginnen.")
     except Exception as e:
         st.error(f"Fout bij het initialiseren van chat interface: {str(e)}")
+        st.error("Probeer de pagina te verversen en opnieuw te beginnen.")
+
+
 
 
 
